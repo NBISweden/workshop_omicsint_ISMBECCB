@@ -16,9 +16,9 @@ All of the following notebooks can be downloaded from the [source Github reposit
 
 ##### Before the tutorial
 
-**Prepare** by going through the [installation instructions](pre-course) and the following notebooks:  
+**Prepare** by going through the [installation instructions](precourse.html) and the following notebooks:  
 - [Data pre-processing notebook](./session_preparation/data_preparation/preprocessing.ipynb) ([html](./session_preparation/data_preparation/preprocessing.html))
-- [Dimesionality reduction](./session_preparation/dimreduction/OmicsIntegration_DimensionReduction.Rmd), ([html](./session_preparation/dimreduction/OmicsIntegration_DimensionReduction.html))
+- [Dimesionality reduction](./session_preparation/dimreduction/OmicsIntegration_DimensionReduction.Rmd) ([html](./session_preparation/dimreduction/OmicsIntegration_DimensionReduction.html))
 - [Feature selection notebook](./session_preparation/feature_selection/OmicsIntegration_FeatureSelection.Rmd) ([html](./session_preparation/feature_selection/OmicsIntegration_FeatureSelection.html))
 <br>
 <br>

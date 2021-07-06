@@ -19,9 +19,9 @@ You should also be familiar with basic command line input (`mkdir`, `cd`, `ls`, 
 #### <img border="0" src="https://www.svgrepo.com/show/26916/book.svg" width="15" height="15"> Preparation for the tutorial  
 ***
 
-**Prepare** by going through the [installation instructions](pre-course) and the following notebooks:  
+**Prepare** by going through the [installation instructions](precourse.html) and the following notebooks:  
 - [Data pre-processing notebook](./session_preparation/data_preparation/preprocessing.ipynb) ([html](./session_preparation/data_preparation/preprocessing.html))
-- [Dimesionality reduction](./session_preparation/dimreduction/OmicsIntegration_DimensionReduction.Rmd), ([html](./session_preparation/dimreduction/OmicsIntegration_DimensionReduction.html))
+- [Dimesionality reduction](./session_preparation/dimreduction/OmicsIntegration_DimensionReduction.Rmd) ([html](./session_preparation/dimreduction/OmicsIntegration_DimensionReduction.html))
 - [Feature selection notebook](./session_preparation/feature_selection/OmicsIntegration_FeatureSelection.Rmd) ([html](./session_preparation/feature_selection/OmicsIntegration_FeatureSelection.html))
 
 For additional contents please refer to the [additional reading][5].
