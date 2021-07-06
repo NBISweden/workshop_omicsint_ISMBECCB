@@ -10,16 +10,16 @@ title:  'Schedule'
 <br>
 <br>
 
-All of the following notebooks can be downloaded from the [source Github repository](https://github.com/NBISweden/workshop_omicsint_ISMBECCB), or viewed as html files. All times are UTC, check your time [here](https://www.worldtimebuddy.com/).
+All of the following notebooks can be downloaded from the [source Github repository](https://github.com/NBISweden/workshop_omicsint_ISMBECCB). Please refer to the html files if you have difficulty with installations. All times are UTC, check your time [here](https://www.worldtimebuddy.com/).
 
 <br><br>
 
 ##### Before the tutorial
 
 **Prepare** by going through the [installation instructions](pre-course) and the following notebooks:  
-- [Data pre-processing notebook](./session_preparation/data_preparation/preprocessing.ipynb), [html](./session_preparation/data_preparation/preprocessing.html)).
-- [Dimesionality reduction](./session_preparation/dimreduction/OmicsIntegration_DimensionReduction.Rmd), [html](./session_preparation/dimreduction/OmicsIntegration_DimensionReduction.html)
-- [Feature selection notebook](./session_preparation/feature_selection/OmicsIntegration_FeatureSelection.Rmd), [html](./session_preparation/feature_selection/OmicsIntegration_FeatureSelection.html)
+- [Data pre-processing notebook](./session_preparation/data_preparation/preprocessing.ipynb) ([html](./session_preparation/data_preparation/preprocessing.html))
+- [Dimesionality reduction](./session_preparation/dimreduction/OmicsIntegration_DimensionReduction.Rmd), ([html](./session_preparation/dimreduction/OmicsIntegration_DimensionReduction.html))
+- [Feature selection notebook](./session_preparation/feature_selection/OmicsIntegration_FeatureSelection.Rmd) ([html](./session_preparation/feature_selection/OmicsIntegration_FeatureSelection.html))
 <br>
 <br>
 
@@ -35,7 +35,9 @@ All of the following notebooks can be downloaded from the [source Github reposit
 
 **13.00 - 13.10** <img border="0" src="https://www.svgrepo.com/show/21938/time.svg" width="15" height="15"> Break
 
-**13.10 - 14.35** <img border="0" src="https://www.svgrepo.com/show/7421/computer.svg" width="15" height="15"> Hands-on exercises. Choose one of the following:  [Supervised integration notebook](./session_ml/SupervisedOMICsIntegration/supervised_omics_integr_CLL.Rmd) ([html](./session_ml/SupervisedOMICsIntegration/supervised_omics_integr_CLL.html)) **or** [Unsupervised integration notebook](./session_ml/UnsupervisedOMICsIntegration/UnsupervisedOMICsIntegration.Rmd) ([html](./session_ml/UnsupervisedOMICsIntegration/UnsupervisedOMICsIntegration.html))
+**13.10 - 14.35** <img border="0" src="https://www.svgrepo.com/show/7421/computer.svg" width="15" height="15"> Hands-on exercises. Choose one of the following:  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Supervised integration notebook](./session_ml/SupervisedOMICsIntegration/supervised_omics_integr_CLL.Rmd) ([html](./session_ml/SupervisedOMICsIntegration/supervised_omics_integr_CLL.html)) found in `./session_ml/SupervisedOMICsIntegration/supervised_omics_integr_CLL.Rmd`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Unsupervised integration notebook](./session_ml/UnsupervisedOMICsIntegration/UnsupervisedOMICsIntegration.Rmd)  ([html](./session_ml/UnsupervisedOMICsIntegration/UnsupervisedOMICsIntegration.html)) found in `./session_ml/UnsupervisedOMICsIntegration/UnsupervisedOMICsIntegration.Rmd`
 
 **14.35 - 14.40** <img border="0" src="https://www.svgrepo.com/show/21938/time.svg" width="15" height="15"> Break
 
