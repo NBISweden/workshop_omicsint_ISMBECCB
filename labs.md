@@ -6,15 +6,8 @@ title:  'Labs'
 ### <img border="0" src="https://www.svgrepo.com/show/7421/computer.svg" width="25" height="25"> Lab instructions
 
 #### Clone the course repository
-
-Retrieve the entire repository including all datasets and notebooks. 
-```
-mkdir ~/Desktop/course #create the folder
-cd ~/Desktop/course #change directory
-git clone git@github.com:NBISweden/workshop_omicsint_ISMBECCB.git . #clone the repository
-```
-
-Inside the new directory you will find the following folders:
+  
+Ensure that you have followed all the [installation instructions](./precourse.html). The cloned repository should contain the following folders:
 - `environments/` - all conda environments necessary for running notebooks
 - `session_preparation/` - data pre-processing, feature selection and dimensionality reduction
 - `session_ml/` - the machine learning sessions, days 1 and 2
