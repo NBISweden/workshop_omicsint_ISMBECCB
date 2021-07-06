@@ -20,11 +20,11 @@ menu:
     url:
   - title: Schedule
     url: schedule
-#   - title: Labs
-#     url: labs
+  - title: Pre-course
+    url: precourse
+  - title: Labs
+    url: labs
   - title: Additional reading
     url: reading_materials
-#   - title: Pre-course
-#     url: precourse
   - title: Contact
     url: contact

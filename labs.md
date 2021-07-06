@@ -7,21 +7,19 @@ title:  'Labs'
 
 #### Clone the course repository
 
-Retrieve the entire repository including all datasets and notebooks.
+Retrieve the entire repository including all datasets and notebooks. 
 ```
-cd ~/Desktop/course
-git clone git@github.com:NBISweden/workshop_omics_integration.git .
+mkdir ~/Desktop/course #create the folder
+cd ~/Desktop/course #change directory
+git clone git@github.com:NBISweden/workshop_omicsint_ISMBECCB.git . #clone the repository
 ```
 
-Inside you will find the following folders:
+Inside the new directory you will find the following folders:
 - `environments/` - all conda environments necessary for running notebooks
-- `session_preprocessing/` - data pre-processing, prior to course start
+- `session_preparation/` - data pre-processing, feature selection and dimensionality reduction
 - `session_ml/` - the machine learning sessions, days 1 and 2
 - `session_topology/` - the network topology analysis, day 3 morning
 - `session_meta/` - network meta-analysis, day 3 afternoon
-- `session_nmf/` - session on matrix factorization, SNF and recommender systems, day 4 morning
-- `session_gems/` - the genome-scale modeling session, day 4 afternoon
-- `session_gsa/` - gene set and reporter feature, day 5 morning
 - `.../` - remaining folders not necessary for running any of the contents
 
 You will need to create specific [conda environments as indicated below](#environments).

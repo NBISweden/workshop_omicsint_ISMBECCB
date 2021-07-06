@@ -8,7 +8,7 @@ title:  Pre-course
 #### <img border="0" src="https://www.svgrepo.com/show/7421/computer.svg" width="25" height="25"> Programming with R and Python  
 ***
 
-The course will be taught using both R and Python depending on the tools available. While you will be able to follow all lectures and exercises conceptually, you should be familiar with basic usage of both programming languages as these are **requirements for the course**:  
+The course will be taught using both R and Python depending on the tools available. While you will be able to follow all lectures and exercises conceptually, it is helpful if you are familiar with basic usage of both programming languages:  
 - [R (part_1)](https://swcarpentry.github.io/r-novice-inflammation/)
 - [R (part_2)](http://swcarpentry.github.io/r-novice-gapminder/)
 - [Python (part_1)](https://swcarpentry.github.io/python-novice-inflammation/)
@@ -16,12 +16,15 @@ The course will be taught using both R and Python depending on the tools availab
 
 You should also be familiar with basic command line input (`mkdir`, `cd`, `ls`, `cp`, `mv`).
 
-#### <img border="0" src="https://www.svgrepo.com/show/26916/book.svg" width="15" height="15"> Preparation for the course  
+#### <img border="0" src="https://www.svgrepo.com/show/26916/book.svg" width="15" height="15"> Preparation for the tutorial  
 ***
 
-Before the course, you should go through the [data preprocessing notebook](./session_preprocessing/preprocessing.html).
+**Prepare** by going through the [installation instructions](pre-course) and the following notebooks:  
+- [Data pre-processing notebook](./session_preparation/data_preparation/preprocessing.ipynb) ([html](./session_preparation/data_preparation/preprocessing.html))
+- [Dimesionality reduction](./session_preparation/dimreduction/OmicsIntegration_DimensionReduction.Rmd), ([html](./session_preparation/dimreduction/OmicsIntegration_DimensionReduction.html))
+- [Feature selection notebook](./session_preparation/feature_selection/OmicsIntegration_FeatureSelection.Rmd) ([html](./session_preparation/feature_selection/OmicsIntegration_FeatureSelection.html))
 
-For additional information on some of the topics that we will discuss, refer to the [reading materials][5].
+For additional contents please refer to the [additional reading][5].
 
 #### <img border="0" src="https://hackernoon.com/hn-images/1*rW03Wtue71AKfxnx6XN_iQ.png" width="50" height="50"> Conda Instructions
 ***
