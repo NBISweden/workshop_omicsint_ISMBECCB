@@ -25,7 +25,7 @@ All of the following notebooks can be downloaded from the [source Github reposit
 
 ##### July 22
 
-**11.00 - 11.10** <img border="0" src="https://www.svgrepo.com/show/7321/teacher.svg" width="15" height="15"> Introduction and contextualization ([Rui][3], [slides](./session_intro/course_intro.pdf))
+**11.00 - 11.10** <img border="0" src="https://www.svgrepo.com/show/7321/teacher.svg" width="15" height="15"> Introduction ([Rui][3], [slides](./session_intro/course_intro.pdf))
 
 **11.10 - 12.00** <img border="0" src="https://www.svgrepo.com/show/7321/teacher.svg" width="15" height="15"> Supervised data integration  ([Nikolay][2], [slides](./session_ml/SupervisedOMICsIntegration/SupervisedOmicsIntegration_Oskolkov.pdf))
 
