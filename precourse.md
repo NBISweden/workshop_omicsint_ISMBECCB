@@ -205,7 +205,7 @@ conda config --set channel_priority false
 ```
 and remove packages and cache
 ```
-conda clean -a
+conda clean -a -y
 ```
 
 

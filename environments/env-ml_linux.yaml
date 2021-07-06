@@ -1,4 +1,3 @@
-channel_priority: strict
 channels:
 - rdonnelly
 - bioconda
