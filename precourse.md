@@ -198,9 +198,18 @@ It is recommended that you INSTALL the program and not use the portable version.
 
 <br/>
 
+##### 2. Setup conda
+Set channel priority
+```
+conda config --set channel_priority false
+```
+and remove packages and cache
+```
+conda clean -a
+```
 
 
-##### 2. Install git clone the repository
+##### 3. Install git clone the repository
 Throughout the course we'll be using scripts and environments found in our github repository. After installing mamba, install git and clone the repository:
 ```
 mamba install -c anaconda git #install
@@ -212,7 +221,7 @@ git clone git@github.com:NBISweden/workshop_omicsint_ISMBECCB.git . #clone the r
 All environments are contained inside the folder `/environments/`
 
 
-##### 3. Create and activate the environment
+##### 4. Create and activate the environment
 For each day you will have to create a different environment as not all programs are compatible with each other:  
 <br>
 **Before the course**
@@ -261,7 +270,7 @@ Activate the environments with `mamba activate [environment name]`. For instance
 conda activate envday1
 ```
 
-#### 4. Launch RStudio or Jupyter
+#### 5. Launch RStudio or Jupyter
 Depending on the exercise, you'll have to run scripts in either RStudio or Jupyter. You can launch these with  
 
 ```
@@ -274,7 +283,7 @@ or
 jupyter-notebook &
 ```
 
-#### 5. Deactivate the environment after running your analyses
+#### 6. Deactivate the environment after running your analyses
 After you've ran all your analyses, you can deactivate the environment by typing:  
 
 ```
