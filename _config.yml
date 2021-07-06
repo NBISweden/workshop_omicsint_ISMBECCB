@@ -22,9 +22,9 @@ menu:
     url: schedule
 #   - title: Labs
 #     url: labs
-#   - title: Reading materials
-#     url: reading_materials
+  - title: Additional reading
+    url: reading_materials
 #   - title: Pre-course
 #     url: precourse
-#   - title: Contact
-#     url: contact
+  - title: Contact
+    url: contact
