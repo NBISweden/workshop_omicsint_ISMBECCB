@@ -4,6 +4,8 @@
 
 This tutorial is a shorter version of the workshop in [Omics Integration and Systems Biology](https://nbisweden.github.io/workshop_omics_integration/) of the [National Bioinformatics Infrastructure Sweden](www.nbis.se). Please refer to the main course for more information.
 
+**Website:** [https://nbisweden.github.io/workshop_omicsint_ISMBECCB/](https://nbisweden.github.io/workshop_omicsint_ISMBECCB/)  
+
 ## Download
 To download please run
 ```
