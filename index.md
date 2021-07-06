@@ -7,11 +7,11 @@ title: Tutorial 4: Omics Integration and Systems Biology
 [![DOI](https://zenodo.org/badge/172930292.svg)](https://zenodo.org/badge/latestdoi/172930292) <img border="0" src="https://www.svgrepo.com/show/305241/github.svg" width="20" height="20"> [Github repository](https://github.com/NBISweden/workshop_omics_integration)  
 This tutorial is a shorter version of the workshop in [Omics Integration and Systems Biology](https://uppsala.instructure.com/courses/52162) of the [National Bioinformatics Infrastructure Sweden](www.nbis.se). Please refer to that workshop for more information. Course contact: `edu.omics-integration [at] nbis.se`.
 
-## Date
+##### Date
 Thursday, July 22, 11:00 - 15:00 UTC
 Friday, July 23, 11:00 - 15:00 UTC
 
-## Presenters
+##### Presenters
 [Ashfaq Ali](https://nbis.se/about/staff/ashfaq-ali/), Science for Life Laboratory, Lund University
 [Rui Benfeitas](https://nbis.se/about/staff/rui-benfeitas/), Science for Life Laboratory, Stockholm University
 [Nikolay Oskolkov](https://nbis.se/about/staff/nikolay-oskolkov), Science for Life Laboratory, Lund University
@@ -20,14 +20,14 @@ Advances in next generation sequencing (NGS) and mass spectrometry have recently
 
 In this tutorial we will introduce several different approaches for integration of multi-omics data including supervised and unsupervised learning and network analyses. We will highlight some of the key issues in dealing with the high multidimensionality that characterizes multi-omic data and techniques to address them. We will also discuss some of the most successful methods for multi-omic data abstraction, and how machine learning approaches can be used in unraveling biological relationships. We will show how biological network analyses can be used to identify patterns within and between omics, and how communities of features may be related with phenotypic data and biologic functions. Finally, we will discuss how meta-analyses and network meta-analyses can be used in analyzing studies from independent experiments.
 
-## Learning Objectives
+##### Learning Objectives
 1. Identify common issues in integration of highly multidimensional omics data.
 2. Identify key methods for data integration through supervised and unsupervised machine learning approaches.
 3. Understand how biological network analysis may assist in identifying coordinated patterns between features and associating feature communities with phenomic and biological functions.
 4. Hands-on experience in supervised/unsupervised integration and biological network analysis.
 
-## Audience and level
+##### Audience and level
 Aimed at bioinformaticians and computational biologists with experience in analysis of high throughput data and basic statistics knowledge, with R or Python coding experience. Knowledge of machine learning techniques is advantageous. Hands-on sessions will comprise both R and Python coding.
 
-## Maximum Participants: 30
+##### Maximum Participants: 30
 
