@@ -1,20 +1,17 @@
 ---
 layout: default
-title: Tutorial 4: Omics Integration and Systems Biology
+title: Tutorial 4: A practical introduction to multi-omics integration and network analysis
 ---
 
-#### <img border="0" src="https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2019-09-12/751389607265_d59c0d58846bb2db7123_132.jpg" width="50" height="50"> Omics Integration and Systems Biology
+#### <img border="0" src="https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2019-09-12/751389607265_d59c0d58846bb2db7123_132.jpg" width="50" height="50"> A practical introduction to multi-omics integration and network analysis
 [![DOI](https://zenodo.org/badge/172930292.svg)](https://zenodo.org/badge/latestdoi/172930292) <img border="0" src="https://www.svgrepo.com/show/305241/github.svg" width="20" height="20"> [Github repository](https://github.com/NBISweden/workshop_omicsint_ISMBECCB/)    
 <br>
-This tutorial is a shorter version of the workshop in [Omics Integration and Systems Biology](https://uppsala.instructure.com/courses/52162) of the [National Bioinformatics Infrastructure Sweden](www.nbis.se). Please refer to that workshop for more information. Course contact: `edu.omics-integration [at] nbis.se`.
+This tutorial is a shorter version of the workshop in [Omics Integration and Systems Biology](https://uppsala.instructure.com/courses/52162) of the [National Bioinformatics Infrastructure Sweden](www.nbis.se). Please refer to that workshop for more information. 
 <hr>
 
 ##### Date
 Thursday, July 22, 11:00 - 15:00 UTC  
 Friday, July 23, 11:00 - 15:00 UTC  
-
-##### Instructions
-Please check the [preparation instructions](./precourse.html).
 
 ##### Presenters
 [Rui Benfeitas](https://nbis.se/about/staff/rui-benfeitas/), Science for Life Laboratory, Stockholm University   
@@ -35,5 +32,7 @@ In this tutorial we will introduce several different approaches for integration 
 ##### Audience and level
 Aimed at bioinformaticians and computational biologists with experience in analysis of high throughput data and basic statistics knowledge, with R or Python coding experience. Knowledge of machine learning techniques is advantageous. Hands-on sessions will comprise both R and Python coding.
 
-##### Maximum Participants: 30
 
+<hr>
+##### Instructions
+Please check the [preparation instructions](./precourse.html).
