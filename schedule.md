@@ -2,56 +2,50 @@
 layout: default
 title:  'Schedule'
 ---
-#### <img border="0" src="https://www.svgrepo.com/show/20800/event-date-and-time-symbol.svg" width="25" height="25"> Course schedule
-
-This page is under update.
+#### <img border="0" src="https://www.svgrepo.com/show/20800/event-date-and-time-symbol.svg" width="25" height="25"> Tutorial schedule
 
 <img border="0" src="https://www.svgrepo.com/show/7321/teacher.svg" width="15" height="15"> - lecture;
 <img border="0" src="https://www.svgrepo.com/show/7421/computer.svg" width="15" height="15"> - hands-on workshop;
-<img border="0" src="https://www.svgrepo.com/show/307069/public-speaking-speak-tell-talk.svg" width="15" height="15"> - invited seminar;
 <img border="0" src="https://www.svgrepo.com/show/21938/time.svg" width="15" height="15"> - break
 <br>
 <br>
-##### Before the course
 
-**Prepare** [Pre-course materials](./precourse.md) and pre-processing introduction ([notebook](./session_preprocessing/preprocessing.ipynb), [html](./session_preprocessing/preprocessing.html)).
+All of the following notebooks can be downloaded from the [source Github repository](https://github.com/NBISweden/workshop_omicsint_ISMBECCB), or viewed as html files. All times are UTC, check your time [here](https://www.worldtimebuddy.com/).
+
+##### Before the tutorial
+**Prepare** by going through the [installation instructions](pre-course) and the following notebooks:  
+- [Data pre-processing notebook](./session_preparation/data_preparation/preprocessing.ipynb), [html](./session_preparation/data_preparation/preprocessing.html)).
+- [Dimesionality reduction](./session_preparation/dimreduction/OmicsIntegration_DimensionReduction.Rmd), [html](./session_preparation/dimreduction/OmicsIntegration_DimensionReduction.html)
+- [Feature selection notebook](./session_preparation/feature_selection/OmicsIntegration_FeatureSelection.Rmd), [html](./session_preparation/feature_selection/OmicsIntegration_FeatureSelection.html)
 <br>
 <br>
 
-##### Day 1
+##### July 22
 
-**09.00 - 09.20** <img border="0" src="https://www.svgrepo.com/show/7321/teacher.svg" width="15" height="15"> Introduction and contextualization ([Rui][3], [slides](./session_intro/course_intro.pdf))
+**11.00 - 11.10** <img border="0" src="https://www.svgrepo.com/show/7321/teacher.svg" width="15" height="15"> Introduction and contextualization ([Rui][3], [slides](./session_intro/course_intro.pdf))
 
-**09.20 - 09.55** <img border="0" src="https://www.svgrepo.com/show/7321/teacher.svg" width="15" height="15"> Machine Learning view of Omics integration ([Nikolay][2], [slides](./session_ml/MachineLearningViewOmicsIntegration_Oskolkov.pdf))
+**11.10 - 12.00** <img border="0" src="https://www.svgrepo.com/show/7321/teacher.svg" width="15" height="15"> Supervised data integration  ([Nikolay][2], [slides](./session_ml/SupervisedOMICsIntegration/SupervisedOmicsIntegration_Oskolkov.pdf))
 
-**09.55 - 10.05** <img border="0" src="https://www.svgrepo.com/show/21938/time.svg" width="15" height="15"> Break
+**12.00 - 12.10** <img border="0" src="https://www.svgrepo.com/show/21938/time.svg" width="15" height="15"> Break
 
-**10.05 - 10.55** <img border="0" src="https://www.svgrepo.com/show/7321/teacher.svg" width="15" height="15"> Feature Selection and Supervised Omics integration ([Nikolay][2], [slides](./session_ml/SupervisedOMICsIntegration/SupervisedOmicsIntegration_Oskolkov.pdf))
+**12.10 - 13.00** <img border="0" src="https://www.svgrepo.com/show/7321/teacher.svg" width="15" height="15"> Unsupervised data integration ([Nikolay][2], [slides](./session_ml/UnsupervisedOMICsIntegration/UnsupervisedOmicsIntegration_Oskolkov.pdf))
 
-**10.55 - 11.00** <img border="0" src="https://www.svgrepo.com/show/21938/time.svg" width="15" height="15"> Break
+**13.00 - 13.10** <img border="0" src="https://www.svgrepo.com/show/21938/time.svg" width="15" height="15"> Break
 
-**11.00 - 12.00** <img border="0" src="https://www.svgrepo.com/show/7421/computer.svg" width="15" height="15"> Feature Selection and Supervised Omics integration ([Nikolay][2],[feature selection notebook](./session_ml/FeatureSelectionIntegrOMICs/OmicsIntegration_FeatureSelection.html), [supervised integration notebook](./session_ml/SupervisedOMICsIntegration/supervised_omics_integr_CLL.html))
+**13.10 - 14.35** <img border="0" src="https://www.svgrepo.com/show/7421/computer.svg" width="15" height="15"> Hands-on exercises. Choose one of the following:  
+- [Supervised integration notebook](./session_ml/SupervisedOMICsIntegration/supervised_omics_integr_CLL.Rmd), [html](./session_ml/SupervisedOMICsIntegration/supervised_omics_integr_CLL.html)
+- [Unsupervised integration notebook](./session_ml/UnsupervisedOMICsIntegration/UnsupervisedOMICsIntegration.Rmd), [html](./session_ml/UnsupervisedOMICsIntegration/UnsupervisedOMICsIntegration.html)
 
-**12.00 - 13.00** <img border="0" src="https://www.svgrepo.com/show/21938/time.svg" width="15" height="15"> Lunch
+**14.35 - 14.40** <img border="0" src="https://www.svgrepo.com/show/21938/time.svg" width="15" height="15"> Break
 
-**13.00 - 13.10** <img border="0" src="https://www.svgrepo.com/show/7321/teacher.svg" width="15" height="15"> Lab recap ([Nikolay][2])
-
-**13.10 - 14.00** <img border="0" src="https://www.svgrepo.com/show/7321/teacher.svg" width="15" height="15"> Unsupervised Omics integration ([Nikolay][2], [slides](./session_ml/UnsupervisedOMICsIntegration/UnsupervisedOmicsIntegration_Oskolkov.pdf))
-
-**14.00 - 14.05** <img border="0" src="https://www.svgrepo.com/show/21938/time.svg" width="15" height="15"> Break
-
-**14.05 - 15.20** <img border="0" src="https://www.svgrepo.com/show/7421/computer.svg" width="15" height="15"> Unsupervised Omics integration ([Nikolay][2], [notebook](./session_ml/UnsupervisedOMICsIntegration/UnsupervisedOMICsIntegration.html))
-
-**15.20 - 15.30** <img border="0" src="https://www.svgrepo.com/show/7321/teacher.svg" width="15" height="15"> Lab recap ([Nikolay][2])
-
-**15.30 - 17.00** <img border="0" src="https://www.svgrepo.com/show/7421/computer.svg" width="15" height="15"> Assisted exercises
+**14.40 - 15.00** <img border="0" src="https://www.svgrepo.com/show/7321/teacher.svg" width="15" height="15"> Summary ([Nikolay][2])
 
 <br>
 <br>
 
-##### Day 2
+##### July 23
 
-**09.00 - 09.20** <img border="0" src="https://www.svgrepo.com/show/7321/teacher.svg" width="15" height="15"> Review ([Nikolay][2])
+**11.00 - 09.20** <img border="0" src="https://www.svgrepo.com/show/7321/teacher.svg" width="15" height="15"> Review ([Nikolay][2])
 
 **09.20 - 10.00** <img border="0" src="https://www.svgrepo.com/show/7321/teacher.svg" width="15" height="15"> Dimensionality reduction and clustering ([Nikolay][2], [slides](./session_ml/DimReductSingleCell/DimensionReduction_Oskolkov.pdf))
 
