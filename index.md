@@ -34,5 +34,9 @@ Aimed at bioinformaticians and computational biologists with experience in analy
 
 
 <hr>
+
 ##### Instructions
-Please check the [preparation instructions](./precourse.html).
+Please check the [preparation instructions](./precourse.html)
+
+##### Questions
+Please write them on the [HackMD](https://hackmd.io/@omicsintegration/ismb)

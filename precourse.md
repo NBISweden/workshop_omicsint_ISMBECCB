@@ -204,9 +204,9 @@ It is recommended that you INSTALL the program and not use the portable version.
 Throughout the course we'll be using scripts and environments found in our github repository. After installing mamba, install git and clone the repository:
 ```
 mamba install -c anaconda git #install
-mkdir ~/Desktop/course
-cd ~/Desktop/course
-git clone https://github.com/NBISweden/workshop_omics_integration.git .
+mkdir ~/Desktop/course #create the folder
+cd ~/Desktop/course #change directory
+git clone git@github.com:NBISweden/workshop_omicsint_ISMBECCB.git . #clone the repository
 ```
 
 All environments are contained inside the folder `/environments/`
