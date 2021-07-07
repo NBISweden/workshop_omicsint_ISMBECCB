@@ -1,11 +1,10 @@
-channel_priority: strict
 channels:
 - rdonnelly
 - bioconda
 - conda-forge
 - defaults
 dependencies:
-- r-base=3.6.1
+- r-base=3.6.3
 - rstudio=1.1.456
 - bioconductor-mixomics=6.10.1
 - r-codetools=0.2-16
@@ -19,11 +18,11 @@ dependencies:
 - r-foreach=1.4.7
 - r-generics=0.1.0
 - r-ggplot2=3.2.1
-- r-glmnet=2.0-18
+- r-glmnet=4.1.1
 - r-glue=1.4.1
 - r-gridExtra=2.3
 - r-gtable=0.3.0
-- r-igraph=1.2.4.1
+- r-igraph=1.2.6
 - r-iterators=1.0.12
 - r-labeling=0.3
 - r-lattice=0.20-38
@@ -48,7 +47,7 @@ dependencies:
 - r-rstudioapi=0.13
 - r-scales=1.0.0
 - r-snow=0.4_3
-- r::r-stringi=1.4.3
+- conda-forge::r-stringi=1.6.2
 - r-stringr=1.4.0
 - r-tibble=3.0.3
 - r-tidyr=1.1.0
