@@ -221,48 +221,29 @@ git clone git@github.com:NBISweden/workshop_omicsint_ISMBECCB.git . #clone the r
 All environments are contained inside the folder `/environments/`
 
 
-##### 4. Create and activate the environment
-For each day you will have to create a different environment as not all programs are compatible with each other:  
+##### 4. Create and activate the environments
+You will need to create and use different conda environments. Please note the different environments if you are on MacOS or Linux:  
 <br>
-**Before the course**
+**MacOS**
+```
+#supervised integration and feature selection
+mamba env create -f environments/env-ml.yaml -n ismb_si_fs   
+
+#dimensionality reduction, unsupervised integration, network analysis
+mamba env create -f environments/env-ml_nets.yaml -n ismb_dr_ui_na 
+```
+<br>
+**Linux**
+```
+#supervised integration and feature selection
+mamba env create -f environments/env-ml_linux.yaml -n ismb_si_fs   
+
+#dimensionality reduction, unsupervised integration, network analysis
 
 ```
-#Linux
-mamba env create -f environments/env-preprocessing_linux.yaml -n envprep
 
-#MacOSX
-mamba env create -f environments/env-preprocessing.yaml -n envprep
-```
 
-**Day 1**  
 
-```
-#Linux
-mamba env create -f environments/env-ml_linux.yaml -n envday1
-
-#MacOSX
-mamba env create -f environments/env-ml.yaml -n envday1
-```
-
-**Day 2**  
-
-```
-#Linux
-mamba env create -f environments/env-ml_day2_linux.yaml -n envday2
-
-#MacOSX
-mamba env create -f environments/env-ml_day2.yaml -n envday2
-```
-
-**Days 3-5**   
-
-```
-#Linux
-mamba env create -f environments/env-merged_nets_linux.yaml -n envdays35
-
-#MacOSX
-mamba env create -f environments/env-merged_nets.yaml -n envdays35
-```
 
 Activate the environments with `mamba activate [environment name]`. For instance  
 

@@ -17,14 +17,27 @@ Ensure that you have followed all the [installation instructions](./precourse.ht
 You will need to create specific [conda environments as indicated below](#environments).
 
 #### Environments
-See the [pre-course installation](./precourse.md) to install Conda. Afterwards, create the following environments:
+See the [pre-course installation](./precourse.md) to install Conda and create the environments. To run each notebook, you need to activate the environment with `conda activate [name_of_the_environment]`. For instance, `conda activate ismb_si_fs`:
 ```
 cd ~/Desktop/course/ #cd to the cloned directory if necessary
 
 ## For MacOS:
-mamba env create -f environments/env-ml.yaml -n ismb_si_fl
-mamba env create -f environments/env-ml.yaml -n ismb_si_fl
+
+mamba env create -f environments/env-ml.yaml -n ismb_si_fs   #supervised integration and feature selection
+mamba env create -f environments/env-ml_nets.yaml -n ismb_dr_ui_na #dimensionality reduction, unsupervised integration, network analysis
+
+
+## For linux:
+
+mamba env create -f environments/env-ml_linux.yaml -n ismb_si_fs   #supervised integration and feature selection
+
+
+
+
+
+mamba env create -f environments/env-ml.yaml -n ismb_preprocess   #data preprocessing
 ```
+
 
 activate each of the following environments with `mamba activate   
 ***Environments*** - we merged the environments for many notebooks down to 4 environments.  
