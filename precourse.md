@@ -226,20 +226,34 @@ You will need to create and use different conda environments. Please note the di
 <br>
 **MacOS**
 ```
+#data pre-processing
+mamba env create -f environments/env-preprocessing.yaml -n ismb_prep
+
 #supervised integration and feature selection
 mamba env create -f environments/env-ml.yaml -n ismb_si_fs   
 
 #dimensionality reduction, unsupervised integration, network analysis
 mamba env create -f environments/env-ml_nets.yaml -n ismb_dr_ui_na 
+
+##################################################################
+# The network meta-analysis environment is created from within R #
+##################################################################
 ```
 <br>
 **Linux**
 ```
+#data pre-processing
+mamba env create -f environments/env-preprocessing_linux.yaml -n ismb_prep
+
 #supervised integration and feature selection
 mamba env create -f environments/env-ml_linux.yaml -n ismb_si_fs   
 
 #dimensionality reduction, unsupervised integration, network analysis
 mamba env create -f environments/env-ml_nets_linux.yaml -n ismb_dr_ui_na 
+
+##################################################################
+# The network meta-analysis environment is created from within R #
+##################################################################
 ```
 
 To activate the environments use `conda activate [environment name]`. For instance  
