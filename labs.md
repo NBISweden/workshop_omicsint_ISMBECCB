@@ -35,4 +35,4 @@ As the tutorial is time limited, we will not be able to assist you in debugging 
 
 Bugs and potential solutions:
 - `unable to load shared object '.../R/library/igraph/libs/igraph.dylib'`: solve in terminal with `mamba install -c conda-forge igraph --force-reinstall`  
-- MOFA bugs: refer to [the MOFA repository](https://github.com/bioFAM/MOFA)
+- `mofapy package not found.` please install it from R with `library(reticulate); use_condaenv(condaenv='ismb_dr_ui_na', required=T); py_install('mofapy', envname=' ismb_dr_ui_na', method='auto')`. For other MOFA bugs refer to [the MOFA repository](https://github.com/bioFAM/MOFA).
