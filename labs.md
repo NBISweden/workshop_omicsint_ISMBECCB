@@ -19,7 +19,9 @@ You will need to create specific [conda environments as indicated below](#enviro
 #### Environments
 See the [pre-course installation](./precourse.md) to install Conda and create the environments. To run each notebook, you need to activate the environment with `conda activate [name_of_the_environment]`. For instance, `conda activate ismb_si_fs` to activate the environment for the supervised integration and feature selection. If you cannot run these notebooks, each directory contains the respective HTML files to assist you.  
 Please refer to the next list of notebooks and environments:  
+
 | **Topic			  		| notebook 																						| environment name** 		|
+| --------------------------|-----------------------------------------------------------------------------------------------|---------------------------|
 | Data pre-processing 		| jupyter notebook: `/session_preparation/data_preparation/preprocessing.ipynb` 				| `ismb_prep` 				|
 | Dimensionality reduction	| Rmd notebook: `/session_preparation/dimreduction/OmicsIntegration_DimensionReduction.Rmd`		| `ismb_dr_ui_na`			|
 | Feature selection			| Rmd notebook: `/session_preparation/feature_selection/OmicsIntegration_FeatureSelection.Rmd`	| `ismb_si_fs`				|
