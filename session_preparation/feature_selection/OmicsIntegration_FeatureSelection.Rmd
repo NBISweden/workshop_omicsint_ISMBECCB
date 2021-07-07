@@ -15,7 +15,7 @@ abstract: |
 ```{r new setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 #If you want to knit the whole notebook, please specify below correct path to the Rmd-file
-knitr::opts_knit$set(root.dir="/home/nikolay/Documents/Teaching/IntegrativeOMICs2021/session_ml/FeatureSelectionIntegrOMICs")
+knitr::opts_knit$set(root.dir=getwd())
 ```
 
 
@@ -184,3 +184,9 @@ Finally, we would like to mention that there is another interesting type of line
 
 [1] The Genotype-Tissue Expression (GTEx) project. The GTEx Consortium.
 Nature Genetics. 29 May 2013. 45(6):580-5.
+
+### RSession
+```{r}
+sessionInfo()
+```
+
