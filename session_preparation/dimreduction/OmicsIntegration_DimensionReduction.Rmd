@@ -14,7 +14,7 @@ abstract: |
 
 ```{r new setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-knitr::opts_knit$set(root.dir="/home/nikolay/Documents/Teaching/IntegrativeOMICs2021/session_ml/DimReductSingleCell/")
+knitr::opts_knit$set(root.dir=getwd())
 ```
 
 
