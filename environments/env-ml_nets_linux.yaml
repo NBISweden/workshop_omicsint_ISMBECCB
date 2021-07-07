@@ -18,7 +18,7 @@ dependencies:
 - jupyter=1.0.0
 - keras=2.3.1
 - leidenalg=0.7.0
-- matplotlib=3.4.1
+- matplotlib #=3.4.1
 - mofapy=1.2
 - nb_conda_kernels=2.3.1
 - numba=0.48
