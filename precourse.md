@@ -239,16 +239,13 @@ mamba env create -f environments/env-ml_nets.yaml -n ismb_dr_ui_na
 mamba env create -f environments/env-ml_linux.yaml -n ismb_si_fs   
 
 #dimensionality reduction, unsupervised integration, network analysis
-
+mamba env create -f environments/env-ml_nets_linux.yaml -n ismb_dr_ui_na 
 ```
 
-
-
-
-Activate the environments with `mamba activate [environment name]`. For instance  
+To activate the environments use `conda activate [environment name]`. For instance  
 
 ```
-conda activate envday1
+conda activate ismb_si_fs
 ```
 
 #### 5. Launch RStudio or Jupyter

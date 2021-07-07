@@ -17,31 +17,15 @@ Ensure that you have followed all the [installation instructions](./precourse.ht
 You will need to create specific [conda environments as indicated below](#environments).
 
 #### Environments
-See the [pre-course installation](./precourse.md) to install Conda and create the environments. To run each notebook, you need to activate the environment with `conda activate [name_of_the_environment]`. For instance, `conda activate ismb_si_fs`:
-```
-cd ~/Desktop/course/ #cd to the cloned directory if necessary
+See the [pre-course installation](./precourse.md) to install Conda and create the environments. To run each notebook, you need to activate the environment with `conda activate [name_of_the_environment]`. For instance, `conda activate ismb_si_fs` to activate the environment for the supervised integration and feature selection.  
+Please refer to the next list of notebooks and environments:
 
-## For MacOS:
-
-mamba env create -f environments/env-ml.yaml -n ismb_si_fs   #supervised integration and feature selection
-mamba env create -f environments/env-ml_nets.yaml -n ismb_dr_ui_na #dimensionality reduction, unsupervised integration, network analysis
-
-
-## For linux:
-
-mamba env create -f environments/env-ml_linux.yaml -n ismb_si_fs   #supervised integration and feature selection
-
-
-
-
-
-mamba env create -f environments/env-ml.yaml -n ismb_preprocess   #data preprocessing
-```
-
-
-activate each of the following environments with `mamba activate   
-***Environments*** - we merged the environments for many notebooks down to 4 environments.  
 - **Data pre-processing** (linux: `env-preprocessing_linux.yaml`, macOS: `env-preprocessing.yaml`)
 - **Supervised Integration & Feature selection** (linux: `env-ml_linux.yaml` | macOS: `env-ml.yaml`)
 - **Meta analysis** (R environments in linux | macOS `/session_meta/renv.lock`)
 - **All remaining notebooks** (linux `env-ml_nets_linux.yaml` | MacOS `env-ml_nets.yaml`)
+
+#### Installation problems and bugs
+If you are having installation problems or problems running one environment, it is useful to do `conda clean -a -y` and conditionally re-install a specific environment. If the problem persists, consider installing the problematic package in terminal with `mamba install -c conda-forge [package name] --force-reinstall`.
+
+As the tutorial is time limited, we will not be able to assist you in debugging so if you are having problems due to a specific package, consider installing it from within R: you'll find all packages used at the end of each notebook and html file.
