@@ -26,6 +26,13 @@ Please refer to the next list of notebooks and environments:
 - **All remaining notebooks** (linux `env-ml_nets_linux.yaml` | MacOS `env-ml_nets.yaml`)
 
 #### Installation problems and bugs
-If you are having installation problems or problems running one environment, it is useful to do `conda clean -a -y` and conditionally re-install a specific environment. If the problem persists, consider installing the problematic package in terminal with `mamba install -c conda-forge [package name] --force-reinstall`.
+As the tutorial is time limited, we will not be able to assist you in debugging your installations during the hands-on sessions. Here are some helpful tips that may assist in solving installation problems or package-related bugs:  
+- deactivate the environment if applicable;  
+- clean cache with `conda clean -a -y`;  
+- re-install the specific environment;  
+- if the problem persists, consider installing the problematic package reported in the bug from terminal with `mamba install -c conda-forge [package name] --force-reinstall`. If you find 
+- if the problem still persists, consider installing it manually within R from CRAN or bioconductor. You'll find all packages used at the end of each notebook and html file.
 
-As the tutorial is time limited, we will not be able to assist you in debugging so if you are having problems due to a specific package, consider installing it from within R: you'll find all packages used at the end of each notebook and html file.
+Bugs and potential solutions:
+- `unable to load shared object '.../R/library/igraph/libs/igraph.dylib'`: solve in terminal with `mamba install -c conda-forge igraph --force-reinstall`  
+- MOFA bugs: refer to [the MOFA repository](https://github.com/bioFAM/MOFA)

@@ -215,7 +215,7 @@ Throughout the course we'll be using scripts and environments found in our githu
 mamba install -c anaconda git #install
 mkdir ~/Desktop/course #create the folder
 cd ~/Desktop/course #change directory
-git clone git@github.com:NBISweden/workshop_omicsint_ISMBECCB.git . #clone the repository
+git clone https://github.com/NBISweden/workshop_omicsint_ISMBECCB.git . #clone the repository
 ```
 
 All environments are contained inside the folder `/environments/`
