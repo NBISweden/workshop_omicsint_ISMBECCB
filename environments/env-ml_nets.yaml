@@ -9,7 +9,8 @@ channels:
 
 dependencies:
 - bioconductor-mixomics=6.10.1
-- bioconductor-mofa=1.2.0
+#- bioconductor-mofa=1.2.0
+- bioconductor-mofa2
 - bioconductor-org.hs.eg.db=3.10.0
 - bioconductor-piano=2.2.0
 - bioconductor-tcgabiolinks=2.14.0
@@ -19,7 +20,7 @@ dependencies:
 - keras=2.3.1
 - leidenalg #=0.7.0
 - matplotlib #=3.4.2
-- mofapy=1.2
+- mofapy #=1.2
 - nb_conda_kernels #=2.3.1
 - conda-forge::ncurses
 - numba #=0.51.2
