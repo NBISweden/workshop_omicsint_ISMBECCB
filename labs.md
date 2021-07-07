@@ -36,7 +36,7 @@ As the tutorial is time limited, we will not be able to assist you in debugging 
 - deactivate the environment if applicable;  
 - clean cache with `conda clean -a -y`;  
 - re-install the specific environment;  
-- if the problem persists, consider installing the problematic package reported in the bug from terminal with `mamba install -c conda-forge [package name] --force-reinstall`. If you find 
+- if the problem persists, consider installing the problematic package reported in the bug from terminal with `mamba install -c conda-forge [package name] --force-reinstall`. If you get an error `Problem: nothing provides requested [package name` please search for it [in anaconda cloud](https://anaconda.org/) and change the channel accordingly (e.g. `-c [bioconda | r | rdonnelly ]`).
 - if the problem still persists, consider installing it manually within R from CRAN or bioconductor. You'll find all packages used at the end of each notebook and html file.
 
 Bugs and potential solutions:
