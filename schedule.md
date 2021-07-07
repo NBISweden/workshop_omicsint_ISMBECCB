@@ -55,7 +55,7 @@ All of the following notebooks can be downloaded from the [source Github reposit
 
 **11.50 - 12.00** <img border="0" src="https://www.svgrepo.com/show/21938/time.svg" width="15" height="15"> Break  
 
-**12.00 - 12.30** <img border="0" src="https://www.svgrepo.com/show/7321/teacher.svg" width="15" height="15"> Network properties and community identification ([Rui][3], [slides](./session_topology/lecture_short.pdf))  
+**12.00 - 12.30** <img border="0" src="https://www.svgrepo.com/show/7321/teacher.svg" width="15" height="15"> Network properties and community identification ([Rui][3], [slides 1](./session_topology/2Network_inference.pdf), [slides 2](./session_topology/3Community_analysis.pdf))  
 
 **12.30 - 12.40** <img border="0" src="https://www.svgrepo.com/show/21938/time.svg" width="15" height="15"> Break  
 
