@@ -10,7 +10,7 @@ title:  'Schedule'
 <br>
 <br>
 
-All of the following notebooks can be downloaded from the [source Github repository](https://github.com/NBISweden/workshop_omicsint_ISMBECCB). Please refer to the html files if you have difficulty with installations. All times are UTC, check your time [here](https://www.worldtimebuddy.com/).
+All of the following notebooks can be downloaded from the [source Github repository](https://github.com/NBISweden/workshop_omicsint_ISMBECCB). Please refer to the html files if you have difficulty with installations. All times may vary slighlty and are UTC, check your time [here](https://www.worldtimebuddy.com/).
 
 <br><br>
 
@@ -27,7 +27,9 @@ All of the following notebooks can be downloaded from the [source Github reposit
 
 **11.00 - 11.10** <img border="0" src="https://www.svgrepo.com/show/7321/teacher.svg" width="15" height="15"> Introduction ([Rui][3], [slides](./session_intro/course_intro.pdf))
 
-**11.10 - 12.00** <img border="0" src="https://www.svgrepo.com/show/7321/teacher.svg" width="15" height="15"> Supervised data integration  ([Nikolay][2], [slides](./session_ml/SupervisedOMICsIntegration/SupervisedOmicsIntegration_Oskolkov.pdf))
+**11.10 - 11.30** <img border="0" src="https://www.svgrepo.com/show/7321/teacher.svg" width="15" height="15"> Machine Learning view of Integrative Omics  ([Nikolay][2], [slides](./session_ml/SupervisedOMICsIntegration/MachineLearningViewOmicsIntegration_Oskolkov.pdf))
+
+**11.10 - 11.30** <img border="0" src="https://www.svgrepo.com/show/7321/teacher.svg" width="15" height="15"> Supervised data integration  ([Nikolay][2], [slides](./session_ml/SupervisedOMICsIntegration/SupervisedOmicsIntegration_Oskolkov.pdf))
 
 **12.00 - 12.10** <img border="0" src="https://www.svgrepo.com/show/21938/time.svg" width="15" height="15"> Break
 
