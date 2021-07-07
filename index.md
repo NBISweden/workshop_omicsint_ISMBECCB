@@ -7,6 +7,15 @@ title: Tutorial 4: A practical introduction to multi-omics integration and netwo
 [![DOI](https://zenodo.org/badge/172930292.svg)](https://zenodo.org/badge/latestdoi/172930292) <img border="0" src="https://www.svgrepo.com/show/305241/github.svg" width="20" height="20"> [Github repository](https://github.com/NBISweden/workshop_omicsint_ISMBECCB/)    
 <br>
 This tutorial is a shorter version of the workshop in [Omics Integration and Systems Biology](https://uppsala.instructure.com/courses/52162) of the [National Bioinformatics Infrastructure Sweden](www.nbis.se). Please refer to that workshop for more information. 
+
+<hr>
+
+##### Instructions
+Please check the [preparation instructions](./precourse.html). If you are unable to have all installations you will nevertheless be able to follow all exercises through the respective html files. The [schedule](./schedule.html) contains links to all lectures and notebooks.
+
+##### Questions
+Please write them on the [HackMD](https://hackmd.io/LI_HCxeRT8-Ty5qjikeFpQ?both)
+
 <hr>
 
 ##### Date
@@ -32,11 +41,3 @@ In this tutorial we will introduce several different approaches for integration 
 ##### Audience and level
 Aimed at bioinformaticians and computational biologists with experience in analysis of high throughput data and basic statistics knowledge, with R or Python coding experience. Knowledge of machine learning techniques is advantageous. Hands-on sessions will comprise both R and Python coding.
 
-
-<hr>
-
-##### Instructions
-Please check the [preparation instructions](./precourse.html)
-
-##### Questions
-Please write them on the [HackMD](https://hackmd.io/LI_HCxeRT8-Ty5qjikeFpQ?both)
