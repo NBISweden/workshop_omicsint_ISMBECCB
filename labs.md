@@ -17,15 +17,19 @@ Ensure that you have followed all the [installation instructions](./precourse.ht
 You will need to create specific [conda environments as indicated below](#environments).
 
 #### Environments
-See the [pre-course installation](./precourse.md) to install Conda and create the environments. To run each notebook, you need to activate the environment with `conda activate [name_of_the_environment]`. For instance, `conda activate ismb_si_fs` to activate the environment for the supervised integration and feature selection.  
-Please refer to the next list of notebooks and environments:
+See the [pre-course installation](./precourse.md) to install Conda and create the environments. To run each notebook, you need to activate the environment with `conda activate [name_of_the_environment]`. For instance, `conda activate ismb_si_fs` to activate the environment for the supervised integration and feature selection. If you cannot run these notebooks, each directory contains the respective HTML files to assist you.  
+Please refer to the next list of notebooks and environments:  
+| Topic					  | notebook | environment name |
+| **Data pre-processing** | jupyter notebook: `/session_preparation/data_preparation/preprocessing.ipynb` | `ismb_prep` |
+| **Feature selection:** Rmd notebook: `/session_preparation/feature_selection/OmicsIntegration_FeatureSelection.Rmd` ::: ismb_si_fs
 
-- **Data pre-processing** (linux: `env-preprocessing_linux.yaml`, macOS: `env-preprocessing.yaml`)
-- **Supervised Integration & Feature selection** (linux: `env-ml_linux.yaml` | macOS: `env-ml.yaml`)
+- **Supervised Integration:** notebook: `/session_preparation/data_preparation/preprocessing.ipynb` :: environment: `ismb_prep`
+
+- **Feature selection** (linux: `env-ml_linux.yaml` | macOS: `env-ml.yaml`)
 - **Meta analysis** (R environments in linux | macOS `/session_meta/renv.lock`)
 - **All remaining notebooks** (linux `env-ml_nets_linux.yaml` | MacOS `env-ml_nets.yaml`)
 
-#### Installation problems and bugs
+#### Installation issues and bugs
 As the tutorial is time limited, we will not be able to assist you in debugging your installations during the hands-on sessions. Here are some helpful tips that may assist in solving installation problems or package-related bugs:  
 - deactivate the environment if applicable;  
 - clean cache with `conda clean -a -y`;  
