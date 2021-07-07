@@ -10,7 +10,7 @@ abstract: |
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 #If you want to knit the whole notebook, please specify below correct path to the Rmd-file
-knitr::opts_knit$set(root.dir="/home/nikolay/Documents/Teaching/IntegrativeOMICs2021/session_ml/SupervisedOMICsIntegration")
+knitr::opts_knit$set(root.dir=getwd())
 ```
 
 
@@ -271,6 +271,7 @@ round((sum(diag(table(predict.diablo$MajorityVote$mahalanobis.dist[,1],Y.test)))
 
 Therefore the the success rate of the first predictive component is `r round((sum(diag(table(predict.diablo$MajorityVote$mahalanobis.dist[,1],Y.test)))/sum(table(predict.diablo$MajorityVote$mahalanobis.dist[,1],Y.test)))*100)`%, it is quite high and hopefully provides new candidate bio-markers (see the variable plot) from different OMICs and connections between them for understanding of mechanisms of CLL pathogenesis.
 
+### RSession
 ```{r,fig.width=10,fig.height=8}
 sessionInfo()
 ```
