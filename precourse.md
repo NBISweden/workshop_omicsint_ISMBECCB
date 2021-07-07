@@ -5,6 +5,16 @@ title:  Pre-course
 
 {::options parse_block_html="true" /}
 
+#### <img border="0" src="https://www.svgrepo.com/show/26916/book.svg" width="15" height="15"> Preparation for the tutorial  
+***
+
+This workshop will comprise both lectures and hands-on exercises. While you will be able to follow all exercises from the html files, we recommend that you prepare by 1. [familiarizing yourself with basic R and Python](#programming-with-r-and-python), 2. [installing conda](#conda-instructions), and 3. **going through the following 3 notebooks**. If you want to run them in your system please see the [labs page](./labs.html) for setup instructions.  
+- [Data pre-processing notebook](./session_preparation/data_preparation/preprocessing.ipynb) ([html](./session_preparation/data_preparation/preprocessing.html))
+- [Dimesionality reduction](./session_preparation/dimreduction/OmicsIntegration_DimensionReduction.Rmd) ([html](./session_preparation/dimreduction/OmicsIntegration_DimensionReduction.html))
+- [Feature selection notebook](./session_preparation/feature_selection/OmicsIntegration_FeatureSelection.Rmd) ([html](./session_preparation/feature_selection/OmicsIntegration_FeatureSelection.html))
+
+If you are interested you can go through the [additional reading materials][5].
+
 #### <img border="0" src="https://www.svgrepo.com/show/7421/computer.svg" width="25" height="25"> Programming with R and Python  
 ***
 
@@ -15,16 +25,6 @@ The course will be taught using both R and Python depending on the tools availab
 - [Python (part_2)](http://swcarpentry.github.io/python-novice-gapminder/)
 
 You should also be familiar with basic command line input (`mkdir`, `cd`, `ls`, `cp`, `mv`).
-
-#### <img border="0" src="https://www.svgrepo.com/show/26916/book.svg" width="15" height="15"> Preparation for the tutorial  
-***
-
-**Prepare** by going through the [conda installation instructions below](#conda-instructions) and the following notebooks. If you want to run them in your system please see the [labs page](./labs.html) for instructions on how to do it.  
-- [Data pre-processing notebook](./session_preparation/data_preparation/preprocessing.ipynb) ([html](./session_preparation/data_preparation/preprocessing.html))
-- [Dimesionality reduction](./session_preparation/dimreduction/OmicsIntegration_DimensionReduction.Rmd) ([html](./session_preparation/dimreduction/OmicsIntegration_DimensionReduction.html))
-- [Feature selection notebook](./session_preparation/feature_selection/OmicsIntegration_FeatureSelection.Rmd) ([html](./session_preparation/feature_selection/OmicsIntegration_FeatureSelection.html))
-
-For additional contents please refer to the [additional reading][5].
 
 #### <img border="0" src="https://hackernoon.com/hn-images/1*rW03Wtue71AKfxnx6XN_iQ.png" width="50" height="50"> Conda Instructions
 ***
