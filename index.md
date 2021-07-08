@@ -3,7 +3,7 @@ layout: default
 title: Tutorial 4: A practical introduction to multi-omics integration and network analysis
 ---
 
-#### <img border="0" src="https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2019-09-12/751389607265_d59c0d58846bb2db7123_132.jpg" width="50" height="50"> A practical introduction to multi-omics integration and network analysis
+#### <img border="0" src="https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2019-09-12/751389607265_d59c0d58846bb2db7123_132.jpg" width="50" height="50"> Tutorial 4: A practical introduction to multi-omics integration and network analysis
 [![DOI](https://zenodo.org/badge/172930292.svg)](https://zenodo.org/badge/latestdoi/172930292) <img border="0" src="https://www.svgrepo.com/show/305241/github.svg" width="20" height="20"> [Github repository](https://github.com/NBISweden/workshop_omicsint_ISMBECCB/)    
 <br>
 This tutorial is a shorter version of the workshop in [Omics Integration and Systems Biology](https://uppsala.instructure.com/courses/52162) of the [National Bioinformatics Infrastructure Sweden](www.nbis.se). Please refer to that workshop for more information. 
