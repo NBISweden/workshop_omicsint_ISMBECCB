@@ -40,5 +40,35 @@ As the tutorial is time limited, we will not be able to assist you in debugging 
 - if the problem still persists, consider installing it manually within R from CRAN or bioconductor. You'll find all packages used at the end of each notebook and html file.
 
 Bugs and potential solutions:
-- `unable to load shared object '.../R/library/igraph/libs/igraph.dylib'`: solve in terminal with `mamba install -c conda-forge igraph --force-reinstall`  
-- `mofapy package not found.` please install it from R with `library(reticulate); use_condaenv(condaenv='ismb_dr_ui_na', required=T); py_install('mofapy', envname=' ismb_dr_ui_na', method='auto')`. For other MOFA bugs refer to [the MOFA repository](https://github.com/bioFAM/MOFA).
+
+<details>
+	<summary markdown="span">rstudio crashes upon opening</summary>
+	In terminal try to open R by typing: `r`. Examine the returned error.
+</details>
+<details>
+  <summary markdown="span">`unable to load shared object '.../R/library/igraph/libs/igraph.dylib'`</summary>
+  In terminal, run 
+  ```
+  mamba install -c conda-forge igraph --force-reinstall
+  ```
+</details>
+<details>
+	<summary markdown="span">`dyld: Library not loaded: @rpath/libncurses.6.dylib`</summary>
+	In terminal run 
+	```
+	mamba install conda-forge::ncurses
+	```
+</details>
+<details>
+	<summary markdown="span">`mofapy package not found.`</summary>
+	Please install it from R with 
+	```
+	library(reticulate)
+	use_condaenv(condaenv='ismb_dr_ui_na', required=T)
+	py_install('mofapy', envname=' ismb_dr_ui_na', method='auto')
+	```
+</details> 
+<details>
+	<summary markdown="span">MOFA bugs</summary>
+	Refer to [the MOFA repository](https://github.com/bioFAM/MOFA).
+</details>
