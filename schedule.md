@@ -27,7 +27,7 @@ Instructions on how to run each notebook are indicated in [the labs page](./labs
 
 **11.00 - 11.10** <img border="0" src="https://www.svgrepo.com/show/7321/teacher.svg" width="15" height="15"> Introduction ([Rui][3], [slides](./session_intro/course_intro.pdf))
 
-**11.10 - 11.30** <img border="0" src="https://www.svgrepo.com/show/7321/teacher.svg" width="15" height="15"> Machine Learning view of Integrative Omics  ([Nikolay][2], [slides](./session_ml/SupervisedOMICsIntegration/MachineLearningViewOmicsIntegration_Oskolkov.pdf))
+**11.10 - 11.30** <img border="0" src="https://www.svgrepo.com/show/7321/teacher.svg" width="15" height="15"> Machine Learning view of Integrative Omics  ([Nikolay][2], [slides](./session_ml/MachineLearningViewOmicsIntegration_Oskolkov.pdf))
 
 **11.10 - 11.30** <img border="0" src="https://www.svgrepo.com/show/7321/teacher.svg" width="15" height="15"> Supervised data integration  ([Nikolay][2], [slides](./session_ml/SupervisedOMICsIntegration/SupervisedOmicsIntegration_Oskolkov.pdf))
 
