@@ -1,7 +1,7 @@
 ---
 title: "Multi-OMICs Factor Analysis (MOFA) and Unsupervised Data Learning"
 author: "Nikolay Oskolkov, SciLifeLab, NBIS Long Term Support, nikolay.oskolkov@scilifelab.se"
-date: "January 16, 2018"
+date: "January 16, 2018 (last update 10/07/2021 Rui Benfeitas)"
 output:
   html_document:
     toc: yes
@@ -20,7 +20,7 @@ knitr::opts_knit$set(getwd())
 
 ### be sure to update the environment name if applicable
 library(reticulate)
-reticulate::use_condaenv('mofa2_nets')
+reticulate::use_condaenv('ismb_dr_ui_na')
 ```
 
 
