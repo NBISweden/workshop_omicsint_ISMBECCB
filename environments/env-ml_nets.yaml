@@ -32,6 +32,7 @@ dependencies:
 - conda-forge::ncurses
 - gseapy=0.10.4
 - jupyter_core=4.7.1
+- jupyter=1.0.0
 - leidenalg=0.8.7
 - matplotlib=3.3.4
 - numpy=1.19.5
@@ -39,6 +40,7 @@ dependencies:
 - pip
 - pip:
   - mofapy2==0.6.3
+- pycairo=1.20.1
 - scikit-learn=0.24.2
 - scipy=1.5.3
 - seaborn=0.11.1
