@@ -2,6 +2,7 @@
 layout: default
 title:  'Labs'
 ---
+{::options parse_block_html="true" /}
 
 ### <img border="0" src="https://www.svgrepo.com/show/7421/computer.svg" width="25" height="25"> Lab instructions
 
@@ -20,15 +21,15 @@ You will need to create specific [conda environments as indicated below](#enviro
 See the [pre-course installation](./precourse.md) to install Conda and create the environments. To run each notebook, you need to activate the environment with `conda activate [name_of_the_environment]`. For instance, `conda activate ismb_si_fs` to activate the environment for the supervised integration and feature selection. If you cannot run these notebooks, each directory contains the respective HTML files to assist you.  
 Please refer to the next list of notebooks and environments:  
 
-| Topic			  			| notebook type	| path to notebook																	| environment name 			|
-| --------------------------|---------------|-----------------------------------------------------------------------------------|---------------------------|
-| Data pre-processing 		| jupyter  		| `/session_preparation/data_preparation/preprocessing.ipynb` 						| `ismb_prep` 				|
-| Dimensionality reduction	| Rmd  			| `/session_preparation/dimreduction/OmicsIntegration_DimensionReduction.Rmd`		| `ismb_dr_ui_na`			|
-| Feature selection			| Rmd  			| `/session_preparation/feature_selection/OmicsIntegration_FeatureSelection.Rmd`	| `ismb_si_fs`				|
-| Supervised Integration 	| Rmd  			| `/session_ml/SupervisedOMICsIntegration/supervised_omics_integr_CLL.Rmd`			| `ismb_si_fs`				|
-| Unsupervised Integration 	| Rmd  			| `/session_ml/UnsupervisedOMICsIntegration/UnsupervisedOMICsIntegration.Rmd`		| `ismb_dr_ui_na`			|
-| Network analysis 			| jupyter  		| `/session_topology/lab.ipynb`														| `ismb_dr_ui_na`			|
-| Network meta analysis 	| Rmd  			| `/session_meta/lab_meta-analayses-v2.Rmd`											| to create from within R 	|
+| Topic			  			| notebook type	| path to notebook																	| HTML file 					| environment name 			|
+| --------------------------|---------------|-----------------------------------------------------------------------------------| ------------------------------|---------------------------|
+| Data pre-processing 		| jupyter  		| `/session_preparation/data_preparation/preprocessing.ipynb` 						| [html](/session_preparation/data_preparation/preprocessing.html) 						| `ismb_prep` 				|
+| Dimensionality reduction	| Rmd  			| `/session_preparation/dimreduction/OmicsIntegration_DimensionReduction.Rmd`		| [html](/session_preparation/dimreduction/OmicsIntegration_DimensionReduction.html)	| `ismb_dr_ui_na`			|
+| Feature selection			| Rmd  			| `/session_preparation/feature_selection/OmicsIntegration_FeatureSelection.Rmd`	| [html](/session_preparation/feature_selection/OmicsIntegration_FeatureSelection.html)	| `ismb_si_fs`				|
+| Supervised Integration 	| Rmd  			| `/session_ml/SupervisedOMICsIntegration/supervised_omics_integr_CLL.Rmd`			| [html](/session_ml/SupervisedOMICsIntegration/supervised_omics_integr_CLL.html)		| `ismb_si_fs`				|
+| Unsupervised Integration 	| Rmd  			| `/session_ml/UnsupervisedOMICsIntegration/UnsupervisedOMICsIntegration.Rmd`		| [html](/session_ml/UnsupervisedOMICsIntegration/UnsupervisedOMICsIntegration.html)	|`ismb_dr_ui_na`			|
+| Network analysis 			| jupyter  		| `/session_topology/lab.ipynb`														| [html](/session_topology/lab.html)  													| `ismb_dr_ui_na`			|
+| Network meta analysis 	| Rmd  			| `/session_meta/lab_meta-analayses-v2.Rmd`											| [html](/session_meta/lab_meta-analayses-v2.html)										| to create from within R 	|
 
 
 #### Installation issues and bugs
@@ -39,36 +40,48 @@ As the tutorial is time limited, we will not be able to assist you in debugging 
 - if the problem persists, consider installing the problematic package reported in the bug from terminal with `mamba install -c conda-forge [package name] --force-reinstall`. If you get an error `Problem: nothing provides requested [package name` please search for it [in anaconda cloud](https://anaconda.org/) and change the channel accordingly (e.g. `-c [bioconda | r | rdonnelly ]`);
 - if the problem still persists, consider installing it manually within R from CRAN or bioconductor. You'll find all packages used at the end of each notebook and html file.
 
-Bugs and potential solutions:
+##### Bugs and potential solutions:
 
 <details>
-	<summary markdown="span">rstudio crashes upon opening</summary>
-	In terminal try to open R by typing: `r`. Examine the returned error.
+	<summary markdown="span">rstudio crashes upon opening</summary>  
+
+	In terminal try to open R by typing: `r`. Examine the returned error.  
+
 </details>
 <details>
-  <summary markdown="span">`unable to load shared object '.../R/library/igraph/libs/igraph.dylib'`</summary>
-  In terminal, run 
+  <summary markdown="span">`unable to load shared object '.../R/library/igraph/libs/igraph.dylib'`</summary>  
+
+  In terminal, run  
+
   ```
   mamba install -c conda-forge igraph --force-reinstall
   ```
+
 </details>
+
 <details>
-	<summary markdown="span">`dyld: Library not loaded: @rpath/libncurses.6.dylib`</summary>
-	In terminal run 
+	<summary markdown="span">`dyld: Library not loaded: @rpath/libncurses.6.dylib`</summary>  
+
+	In terminal run  
+
 	```
 	mamba install conda-forge::ncurses
 	```
 </details>
+
 <details>
-	<summary markdown="span">`mofapy package not found.`</summary>
-	Please install it from R with 
+	<summary markdown="span">`mofapy package not found.`</summary>  
+
+	Please install it from R with  
+
 	```
 	library(reticulate)
-	use_condaenv(condaenv='ismb_dr_ui_na', required=T)
-	py_install('mofapy', envname=' ismb_dr_ui_na', method='auto')
+	use_condaenv(condaenv='ismb_dr_ui_na')
 	```
-</details> 
+</details>  
+
 <details>
-	<summary markdown="span">MOFA bugs</summary>
-	Refer to [the MOFA repository](https://github.com/bioFAM/MOFA).
+	<summary markdown="span">MOFA bugs</summary>  
+
+	Refer to [the MOFA repository](https://github.com/bioFAM/MOFA).  
 </details>
