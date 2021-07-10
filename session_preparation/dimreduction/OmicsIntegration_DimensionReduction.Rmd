@@ -253,6 +253,7 @@ It looks like UMAP provides more condensed embeddings and the distances between 
 
 Finally here is the details on the system on which this document was compiled:
 
+### Session Info
 ```{r}
 sessionInfo()
 ```
