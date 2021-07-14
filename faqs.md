@@ -4,6 +4,11 @@ title:  'FAQs'
 ---
 {::options parse_block_html="true" /}
 
+<style>
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 { margin-top: 50px }
+p.caption {font-size: 0.9em;font-style: italic;color: grey;margin-right: 10%;margin-left: 10%;text-align: justify}
+</style>
+
 ### <img border="0" src="https://www.svgrepo.com/show/7421/computer.svg" width="25" height="25"> Frequently asked questions
 
 #### Installation issues and bugs
@@ -17,7 +22,22 @@ As the tutorial is time limited, we will not be able to assist you in debugging 
 ##### Bugs and potential solutions:
 
 <details>
-	<summary markdown="span">rstudio crashes upon opening</summary>  
+  <summary markdown="span">`Command line developer tools not found` (OSX)</summary>
+
+  If you don't yet have Mac OSX command line developer tools, please install it using:
+
+  ```
+  xcode-select --install
+  ```
+
+</details>
+
+
+
+
+
+<details>  
+  <summary markdown="span">rstudio crashes upon opening</summary>  
 
 	In terminal try to open R by typing: `r`. Examine the returned error.  
 
