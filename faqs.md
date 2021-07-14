@@ -22,7 +22,7 @@ As the tutorial is time limited, we will not be able to assist you in debugging 
 ##### Bugs and potential solutions:
 
 <details>
-  <summary markdown="span">`Command line developer tools not found` (OSX)</summary>
+  <summary markdown="span">`> Command line developer tools not found` (OSX)</summary>
 
   If you don't yet have Mac OSX command line developer tools, please install it using:
 
@@ -33,13 +33,13 @@ As the tutorial is time limited, we will not be able to assist you in debugging 
 
 
 <details>  
-  <summary markdown="span">rstudio crashes upon opening</summary>  
+  <summary markdown="span">`> rstudio crashes upon opening`</summary>  
 
   In terminal try to open R by typing: `r`. Examine the returned error.  
 </details>
 
 <details>
-  <summary markdown="span">`unable to load shared object '.../R/library/igraph/libs/igraph.dylib'`</summary>  
+  <summary markdown="span">`> unable to load shared object '.../R/library/igraph/libs/igraph.dylib'`</summary>  
 
   In terminal, run  
 
@@ -49,7 +49,7 @@ As the tutorial is time limited, we will not be able to assist you in debugging 
 </details>
 
 <details>
-  <summary markdown="span">`dyld: Library not loaded: @rpath/libncurses.6.dylib`</summary>  
+  <summary markdown="span">`> dyld: Library not loaded: @rpath/libncurses.6.dylib`</summary>  
 
   In terminal run  
 
@@ -59,7 +59,7 @@ As the tutorial is time limited, we will not be able to assist you in debugging 
 </details>
 
 <details>
-  <summary markdown="span">`mofapy package not found.`</summary>  
+  <summary markdown="span">`> mofapy package not found.`</summary>  
 
   Please install it from R with  
 
@@ -70,7 +70,7 @@ As the tutorial is time limited, we will not be able to assist you in debugging 
 </details>  
 
 <details>
-  <summary markdown="span">MOFA bugs</summary>  
+  <summary markdown="span">`> MOFA bugs`</summary>  
 
   Refer to [the MOFA repository](https://github.com/bioFAM/MOFA).  
 </details>
