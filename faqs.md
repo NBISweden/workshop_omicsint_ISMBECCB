@@ -22,7 +22,7 @@ As the tutorial is time limited, we will not be able to assist you in debugging 
 ##### Bugs and potential solutions:
 
 <details>
-  <summary markdown="span">`> Command line developer tools not found` (OSX)</summary>
+  <summary markdown="span">`> Command line developer tools not found (OSX)`</summary>
 
   If you don't yet have Mac OSX command line developer tools, please install it using:
 
