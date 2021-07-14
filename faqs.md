@@ -22,21 +22,21 @@ As the tutorial is time limited, we will not be able to assist you in debugging 
 ##### Bugs and potential solutions:
 
 <details>
-  <summary markdown="span">`Command line developer tools not found` (OSX)</summary></details>
+  <summary markdown="span">`Command line developer tools not found` (OSX)</summary>
 
   If you don't yet have Mac OSX command line developer tools, please install it using:
 
   ```
   xcode-select --install
   ```
-
+</details>
 
 
 <details>  
   <summary markdown="span">rstudio crashes upon opening</summary>  
 
   In terminal try to open R by typing: `r`. Examine the returned error.  
-
+</details>
 
 <details>
   <summary markdown="span">`unable to load shared object '.../R/library/igraph/libs/igraph.dylib'`</summary>  
