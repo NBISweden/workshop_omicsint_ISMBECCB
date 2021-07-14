@@ -21,7 +21,7 @@ As the tutorial is time limited, we will not be able to assist you in debugging 
 
 ##### Bugs and potential solutions:
 
-<details>
+- <details>
   <summary markdown="span">`Command line developer tools not found` (OSX)</summary>
 
   If you don't yet have Mac OSX command line developer tools, please install it using:
@@ -33,16 +33,13 @@ As the tutorial is time limited, we will not be able to assist you in debugging 
 </details>
 
 
-
-
-
-<details>  
+- <details>  
   <summary markdown="span">rstudio crashes upon opening</summary>  
 
-	In terminal try to open R by typing: `r`. Examine the returned error.  
-
+  In terminal try to open R by typing: `r`. Examine the returned error.  
 </details>
-<details>
+
+- <details>
   <summary markdown="span">`unable to load shared object '.../R/library/igraph/libs/igraph.dylib'`</summary>  
 
   In terminal, run  
@@ -50,32 +47,31 @@ As the tutorial is time limited, we will not be able to assist you in debugging 
   ```
   mamba install -c conda-forge igraph --force-reinstall
   ```
-
 </details>
 
-<details>
-	<summary markdown="span">`dyld: Library not loaded: @rpath/libncurses.6.dylib`</summary>  
+- <details>
+  <summary markdown="span">`dyld: Library not loaded: @rpath/libncurses.6.dylib`</summary>  
 
-	In terminal run  
+  In terminal run  
 
-	```
-	mamba install conda-forge::ncurses
-	```
+  ```
+  mamba install conda-forge::ncurses
+  ```
 </details>
 
-<details>
-	<summary markdown="span">`mofapy package not found.`</summary>  
+- <details>
+  <summary markdown="span">`mofapy package not found.`</summary>  
 
-	Please install it from R with  
+  Please install it from R with  
 
-	```
-	library(reticulate)
-	use_condaenv(condaenv='ismb_dr_ui_na')
-	```
+  ```
+  library(reticulate)
+  use_condaenv(condaenv='ismb_dr_ui_na')
+  ```
 </details>  
 
-<details>
-	<summary markdown="span">MOFA bugs</summary>  
+- <details>
+  <summary markdown="span">MOFA bugs</summary>  
 
-	Refer to [the MOFA repository](https://github.com/bioFAM/MOFA).  
+  Refer to [the MOFA repository](https://github.com/bioFAM/MOFA).  
 </details>
