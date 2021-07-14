@@ -11,7 +11,7 @@ This tutorial is a shorter version of the workshop in [Omics Integration and Sys
 <hr>
 
 ##### Instructions
-Please check the [preparation instructions](./precourse.html). If you are unable to have all installations you will nevertheless be able to follow all exercises through the respective html files. The [schedule](./schedule.html) contains links to all lectures and notebooks.
+Please check the [preparation instructions](./precourse.html). If you are unable to complete all installations you will nevertheless be able to follow all exercises through the respective html files. The [schedule](./schedule.html) contains links to all lectures and notebooks.
 
 ##### Questions
 Please write them on the [HackMD](https://hackmd.io/LI_HCxeRT8-Ty5qjikeFpQ?both)

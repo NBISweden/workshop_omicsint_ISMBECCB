@@ -24,6 +24,8 @@ menu:
     url: precourse
   - title: Labs
     url: labs
+  - title: FAQs
+    url: faqs
   - title: Additional reading
     url: reading_materials
   - title: Contact
