@@ -1,7 +1,7 @@
 ---
 title: "Supervised OMICs Integration"
 author: "Nikolay Oskolkov"
-date: "8/16/2019"
+date: "8/16/2019 (last update 15/07/2021 Rui Benfeitas)""
 output: html_document
 abstract: |
   In this work we will integrate gene expression, methylation, mutation and drug response data from 200 human individuals with Chronic Lymphocytic Leukemia (CLL). The phenotype of interest for demonstration purpose will be Gender.
@@ -180,7 +180,8 @@ After we have selected the optimal number of PLS components, let us now perform 
 library("mixOmics")
 test.keepX=list("expr"=c(1:5),"mut"=c(1:5),"meth"=c(1:5),"drug"=c(1:5))
 ptm<-proc.time()
-tune.omics=tune.block.splsda(X=data,Y=Y,ncomp=2,test.keepX=test.keepX,design=design,cpus=4,progressBar=FALSE,validation="Mfold",folds=2,nrepeat=5,near.zero.var=FALSE,dist = "mahalanobis.dist")
+BPPARAM <- BiocParallel::MulticoreParam(workers = parallel::detectCores()-1)
+tune.omics=tune.block.splsda(X=data,Y=Y,ncomp=2,test.keepX=test.keepX,design=design, BPPARAM=BPPARAM,progressBar=FALSE,validation="Mfold",folds=2,nrepeat=5,near.zero.var=FALSE,dist = "mahalanobis.dist")
 my_time<-proc.time()-ptm
 print(paste0("Thus it takes ",as.numeric(my_time["elapsed"])/3600,"h to run this piece of code"))
 ```

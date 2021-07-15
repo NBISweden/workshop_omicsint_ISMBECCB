@@ -16,22 +16,23 @@ dependencies:
 ## R packages
 - bioconductor-mixOmics=6.16.0
 - bioconductor-mofa2=1.2.0
+- free::fonts-continuum
 - r-reticulate
 - r-lattice
 - r-mass
-- r-matrix=1.3-4
-- r-rcpp=1.0.7
-- r-stringi=1.6.2
+- r-matrix #=1.3-4
+- r-rcpp #=1.0.7
+- r-stringi #=1.6.2
 - r-rtsne=0.15
-- r-uwot=0.1.10
+- r-uwot #=0.1.10
 - rstudio
 
 
 ## Python packages
 - argparse
 - conda-forge::ncurses
-- gseapy=0.10.4
-- jupyter_core=4.7.1
+- gseapy #=0.10.4
+- jupyter_core #=4.7.1
 - jupyter=1.0.0
 - leidenalg=0.8.7
 - matplotlib=3.3.4
