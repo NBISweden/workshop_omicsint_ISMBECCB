@@ -11,15 +11,26 @@ p.caption {font-size: 0.9em;font-style: italic;color: grey;margin-right: 10%;mar
 
 ### <img border="0" src="https://www.svgrepo.com/show/7421/computer.svg" width="25" height="25"> Frequently asked questions
 
-#### Installation issues and bugs
-As the tutorial is time limited, we will not be able to assist you in debugging your installations during the hands-on sessions. Here are some helpful tips that may assist in solving installation problems or package-related bugs:  
+We recommend that you follow the pre-course installation instructions, which should avoid most bugs. As the tutorial is time limited, we will not be able to assist you in debugging your installations during the hands-on sessions.
+
+**Bugs and potential solutions**
+
+<details>
+  <summary markdown="span">`> I've installed everything through conda. Should I install instead the docker containers?`</summary>
+
+  Yes, this is strongly recommended as it will avoid many bugs.
+</details>
+
+<details>
+  <summary markdown="span">`> But I'd like to keep using conda. What are common ways to solve most bugs?`</summary>
+
+Here are some helpful tips that may assist in solving installation problems or package-related bugs:  
 - deactivate the environment if applicable;  
 - clean cache with `conda clean -a -y`;  
 - re-install the specific environment;  
 - if the problem persists, consider installing the problematic package reported in the bug from terminal with `mamba install -c conda-forge [package name] --force-reinstall`. If you get an error `Problem: nothing provides requested [package name` please search for it [in anaconda cloud](https://anaconda.org/) and change the channel accordingly (e.g. one of `-c [bioconda | r | rdonnelly ]`);
 - if the problem still persists, consider installing it manually within R from CRAN or bioconductor. You'll find all packages used at the end of each notebook and html file.
-
-##### Bugs and potential solutions:
+</details>
 
 <details>
   <summary markdown="span">`> Command line developer tools not found (OSX)`</summary>
