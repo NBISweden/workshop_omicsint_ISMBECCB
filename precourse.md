@@ -54,7 +54,8 @@ At this point you need to create the two containers for all Rstudio or Jupyter n
   ########### Jupyter image ###########
   # Your user is 'jovyan' (without the quotes)
   # Replace <yourpassword> with your desired password
-  docker run ruibenfeitas/jupyter:16_07_2021
+  docker run -d -p 8888:8888 -e JUPYTER_TOKEN=<yourpassword> ruibenfeitas/jupyter:16_07_2021
+
   ```
 
 </details>
