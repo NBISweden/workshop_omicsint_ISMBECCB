@@ -1,0 +1,31 @@
+FROM bioconductor/bioconductor_docker:latest
+LABEL description = "Dockerfile for rstudio"
+MAINTAINER "Rui Benfeitas" rui.benfeitas@scilifelab.se
+
+
+# Use bash as shell
+SHELL ["/bin/bash", "-c"]
+
+# Set working directory
+WORKDIR /project
+
+# Install vim, pip, git, mofapy
+RUN apt-get update
+RUN apt-get install -y vim pip git
+RUN pip3 install mofapy2
+
+# Install R packages
+RUN install2.r --error ggplot2 lattice MASS Matrix Rcpp reticulate stringi Rtsne uwot glmnet
+
+# Install bioconductor packages
+RUN R -e 'BiocManager::install("mixOmics", ask = F)' \
+  && R -e 'BiocManager::install("MOFA2", ask = F)'
+
+# Copy github repo files
+COPY workshop/ workshop/
+
+# Start Bash shell by default
+#CMD /bin/bash
+
+# Start rstudio
+CMD /init

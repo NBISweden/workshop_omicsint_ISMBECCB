@@ -1,0 +1,35 @@
+version: "3.8"
+services:
+  rstudio:
+    container_name: rstudio_container
+    image: "rocker/tidyverse:latest"
+    ports:
+      - 8787:8787
+    environment:
+      - USER=omics
+    #   - PASSWORD=yourpassword
+    volumes:
+        - ./:/home/omics/project/
+    working_dir: /home/omics/project/
+    build:
+      context: .
+      dockerfile: Dockerfile_rstudio
+    tty: true
+
+
+  jupyter_notebook:
+    container_name: jupyter_container
+    image: 'jupyter/datascience-notebook:latest'
+    ports:
+      - 8888:8888
+    environment:
+        - USER=jovyan
+        # - PASSWORD=yourpassword
+        # - JUPYTER_TOKEN=yourpassword
+    volumes:
+      - ./:/home/jovyan/project/
+    working_dir: /home/jovyan/project/
+    build:
+      context: .
+      dockerfile: Dockerfile_jupyter
+    tty: true
