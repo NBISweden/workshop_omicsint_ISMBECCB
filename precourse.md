@@ -39,12 +39,10 @@ If you have previously followed the [conda instructions](conda_instructions.md),
 
 ##### Create the containers
 
-At this point you need to create the two containers for all Rstudio or Jupyter notebooks. You can do so by choosing one of the following options
-
-either [1. Downloading the image from Dockerhub](#download-image-from-dockerhub) or [2. Download the Dockerfiles and build the images].
+At this point you need to create the two containers for all Rstudio or Jupyter notebooks. You can do so by choosing one of the following options:
 
 <details>
-  <summary markdown="span">**Download image from Dockerhub** (recommended)</summary>
+  <summary markdown="span">**> Download image from Dockerhub** (recommended)</summary>
 
   Pull and start the images
   ```
@@ -63,21 +61,30 @@ either [1. Downloading the image from Dockerhub](#download-image-from-dockerhub)
 
 
 <details>
-  <summary markdown="span">**Download the dockerfiles from github**</summary>
+  <summary markdown="span">**> Download the dockerfiles from github**</summary>
 
-On github you will find the dockerfiles necessary [here](./docker). Download all files, [install docker compose](https://docs.docker.com/compose/install/) and then run:
+On github you will find the dockerfiles necessary from the github repository. Download all files (`Dockerfile_jupyter`, `Dockerfile_rstudio`, `docker-compose.yml` and `environment_jupyter`) and [install docker compose](https://docs.docker.com/compose/install/). Then run:
 
+```
+## go to the dir where the dockerfiles are found
+cd /path/to/dockerfiles
+
+# clone into a subfolder `workshop`
+git clone https://github.com/NBISweden/workshop_omicsint_ISMBECCB.git workshop
+```
+
+Build the containers
 ```
 docker-compose build
 ```
 
-At this point you need to start and execute the container commands:  
+At this point you can start and run the containers  
 
 ```
 ########### Rstudio image ###########
 # Your user is 'omics' (without the quotes)
 # Replace <yourpassword> with your desired password
-docker-compose up -d -p 8787:8787 -e PASSWORD=<yourpassword> -e JUPYTER_TOKEN=<yourpassword>
+docker-compose up -d -p 8787:8787 -e PASSWORD=<yourpassword>
 
 ########### Jupyter image ###########
 # Your user is 'jovyan' (without the quotes)
