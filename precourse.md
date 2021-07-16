@@ -102,7 +102,7 @@ Ensure you have followed all the instructions above and that your containers are
 - `localhost:8888` to launch jupyter
 - `localhost:8787` to launch rstudio
 
-If you want to verify that your containers are running use `docker ps`.
+All notebooks are found within the folder `workshop/` as indicated [in the labs](labs.html). If you want to verify that your containers are running use `docker ps`.
 
 ##### Stop the containers
 To stop the containers write `docker stop [container name]`.
