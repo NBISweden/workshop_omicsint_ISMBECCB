@@ -49,13 +49,12 @@ At this point you need to create the two containers for all Rstudio or Jupyter n
   ########### Rstudio image ###########
   # Your user is 'omics' (without the quotes)
   # Replace <yourpassword> with your desired password
-  docker run -d -p 8787:8787 -e PASSWORD=<yourpassword> ruibenfeitas/rstudio:16_07_2021
+  docker run -d --rm -p 8787:8787 -e PASSWORD=<yourpassword> ruibenfeitas/rstudio:16_07_2021
 
   ########### Jupyter image ###########
   # Your user is 'jovyan' (without the quotes)
   # Replace <yourpassword> with your desired password
-  docker run -d -p 8888:8888 -e JUPYTER_TOKEN=<yourpassword> ruibenfeitas/jupyter:16_07_2021
-
+  docker run -d --rm -p 8888:8888 -e JUPYTER_TOKEN=<yourpassword> ruibenfeitas/jupyter:16_07_2021
   ```
 
 </details>
@@ -64,7 +63,7 @@ At this point you need to create the two containers for all Rstudio or Jupyter n
 <details>
   <summary markdown="span">**> Download the dockerfiles from github**</summary>
 
-On github you will find the dockerfiles necessary from the github repository. Download all files (`Dockerfile_jupyter`, `Dockerfile_rstudio`, `docker-compose.yml` and `environment_jupyter`) and [install docker compose](https://docs.docker.com/compose/install/). Then run:
+On github you will find the dockerfiles necessary from the github repository. Download all files (`Dockerfile_jupyter`, `Dockerfile_rstudio`, `docker-compose.yml` and `environment_jupyter`), [install docker compose](https://docs.docker.com/compose/install/) and [install git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). Then:  
 
 ```
 ## go to the dir where the dockerfiles are found
