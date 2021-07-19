@@ -3,6 +3,7 @@ _site
 *.ipynb_checkpoints/
 *-env/
 admin_docs/
+*files/
 
 #Files
 .Rhistory
