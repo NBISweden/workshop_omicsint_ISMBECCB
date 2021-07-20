@@ -12,7 +12,7 @@ title:  'Schedule'
 
 All of the following notebooks can be downloaded from the [source Github repository](https://github.com/NBISweden/workshop_omicsint_ISMBECCB). Please refer to the html files if you have difficulty with installations. The schedule time is indicated in UTC, check your time [here](https://www.worldtimebuddy.com/).
 
-Instructions on how to run each notebook are indicated in [the labs page](./labs.html) after installing [each conda environment](./precourse.html).<br><br>
+Instructions on how to run each notebook are indicated in [the labs page](./labs.html) after installing [the docker containers](./precourse.html).<br><br>
 
 ##### Before the tutorial
 
