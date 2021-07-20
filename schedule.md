@@ -55,7 +55,7 @@ Instructions on how to run each notebook are indicated in [the labs page](./labs
 
 **11.50 - 12.00** <img border="0" src="https://www.svgrepo.com/show/21938/time.svg" width="15" height="15"> Break  
 
-**12.00 - 12.30** <img border="0" src="https://www.svgrepo.com/show/7321/teacher.svg" width="15" height="15"> Network properties and community identification ([Rui][3], [slides 1](./session_topology/Intro_inference_community.pdf))  
+**12.00 - 12.30** <img border="0" src="https://www.svgrepo.com/show/7321/teacher.svg" width="15" height="15"> Network properties and community identification ([Rui][3], [slides](./session_topology/Intro_inference_community.pdf))  
 
 **12.30 - 12.40** <img border="0" src="https://www.svgrepo.com/show/21938/time.svg" width="15" height="15"> Break  
 

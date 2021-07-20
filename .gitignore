@@ -4,6 +4,7 @@ _site
 *-env/
 admin_docs/
 *files/
+*data/
 
 #Files
 .Rhistory
