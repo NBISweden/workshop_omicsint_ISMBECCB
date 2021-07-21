@@ -5,20 +5,20 @@ title:  Pre-course
 
 {::options parse_block_html="true" /}
 
-#### <img border="0" src="https://www.svgrepo.com/show/26916/book.svg" width="15" height="15"> Preparation for the tutorial  
+#### <img border="0" src="https://www.svgrepo.com/show/26916/book.svg" width="15" height="15"> Preparation for the tutorial
 ***
 
-This workshop will comprise both lectures and hands-on exercises. While you will be able to follow all exercises from the html files, we recommend that you prepare by 1. [familiarizing yourself with basic R and Python](#-programming-with-r-and-python), 2. [installing the containers](#-docker-instructions), and 3. **going through the following 3 notebooks**. If you want to run them in your system please see the [labs page](./labs.html) for setup instructions.  
+This workshop will comprise both lectures and hands-on exercises. While you will be able to follow all exercises from the html files, we recommend that you prepare by 1. [familiarizing yourself with basic R and Python](#-programming-with-r-and-python), 2. [installing the containers](#-docker-instructions), and 3. **going through the following 3 notebooks**. If you want to run them in your system please see the [labs page](./labs.html) for setup instructions.
 - [Data pre-processing notebook](./session_preparation/data_preparation/preprocessing.ipynb) ([html](./session_preparation/data_preparation/preprocessing.html))
 - [Dimesionality reduction](./session_preparation/dimreduction/OmicsIntegration_DimensionReduction.Rmd) ([html](./session_preparation/dimreduction/OmicsIntegration_DimensionReduction.html))
 - [Feature selection notebook](./session_preparation/feature_selection/OmicsIntegration_FeatureSelection.Rmd) ([html](./session_preparation/feature_selection/OmicsIntegration_FeatureSelection.html))
 
 If you are interested you can go through the [additional reading materials][5].
 
-#### <img border="0" src="https://www.svgrepo.com/show/7421/computer.svg" width="25" height="25"> Programming with R and Python  
+#### <img border="0" src="https://www.svgrepo.com/show/7421/computer.svg" width="25" height="25"> Programming with R and Python
 ***
 
-The course will be taught using both R and Python depending on the tools available. While you will be able to follow all lectures and exercises conceptually, it is helpful if you are familiar with basic usage of both programming languages:  
+The course will be taught using both R and Python depending on the tools available. While you will be able to follow all lectures and exercises conceptually, it is helpful if you are familiar with basic usage of both programming languages:
 - [R (part_1)](https://swcarpentry.github.io/r-novice-inflammation/)
 - [R (part_2)](http://swcarpentry.github.io/r-novice-gapminder/)
 - [Python (part_1)](https://swcarpentry.github.io/python-novice-inflammation/)
@@ -26,13 +26,13 @@ The course will be taught using both R and Python depending on the tools availab
 
 You should also be familiar with basic command line input (`mkdir`, `cd`, `ls`, `cp`, `mv`).
 
-#### <img border="0" src="https://www.svgrepo.com/show/303231/docker-logo.svg" width="25" height="25"> Docker instructions  
+#### <img border="0" src="https://www.svgrepo.com/show/303231/docker-logo.svg" width="25" height="25"> Docker instructions
 ***
 
-To reproduce all analyses you will need to:  
-- [Install Docker](https://docs.docker.com/get-docker/);  
-- [Create the containers](#create-the-containers);  
-- [Launch rstudio or jupyter](#launch-rstudio-or-jupyter);  
+To reproduce all analyses you will need to:
+- [Install Docker](https://docs.docker.com/get-docker/);
+- [Create the containers](#create-the-containers);
+- [Launch rstudio or jupyter](#launch-rstudio-or-jupyter);
 - [Stop the containers](#stop-the-containers)
 
 If you have previously followed the [conda instructions](conda_instructions.md), we still recommend that you follow the instructions below as they may avoid some bugs.
@@ -51,6 +51,11 @@ At this point you need to create the two containers for all Rstudio or Jupyter n
   # Replace <yourpassword> with your desired password
   docker run -d --rm -p 8787:8787 -e PASSWORD=<yourpassword> ruibenfeitas/rstudio:16_07_2021
 
+  ########### Rstudio image for meta analyses ###########
+  # Your user is 'omics' (without the quotes)
+  # Replace <yourpassword> with your desired password
+  docker run -d --rm -p 8787:8787 -e PASSWORD=<yourpassword> ash706/omicsint_r
+
   ########### Jupyter image ###########
   # Your user is 'jovyan' (without the quotes)
   # Replace <yourpassword> with your desired password
@@ -63,7 +68,7 @@ At this point you need to create the two containers for all Rstudio or Jupyter n
 <details>
   <summary markdown="span">**> Download the dockerfiles from github**</summary>
 
-On github you will find the dockerfiles necessary from the github repository. Download all files (`Dockerfile_jupyter`, `Dockerfile_rstudio`, `docker-compose.yml` and `environment_jupyter`), [install docker compose](https://docs.docker.com/compose/install/) and [install git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). Then:  
+On github you will find the dockerfiles necessary from the github repository. Download all files (`Dockerfile_jupyter`, `Dockerfile_rstudio`, `docker-compose.yml` and `environment_jupyter`), [install docker compose](https://docs.docker.com/compose/install/) and [install git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). Then:
 
 ```
 ## go to the dir where the dockerfiles are found
@@ -78,7 +83,7 @@ Build the containers
 docker-compose build
 ```
 
-At this point you can start and run the containers  
+At this point you can start and run the containers
 
 ```
 ########### Rstudio image ###########

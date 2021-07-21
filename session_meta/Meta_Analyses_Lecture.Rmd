@@ -272,7 +272,7 @@ class: left, top, top
 
 ---
 
-# Workflow for Meta analyses for Differntial Expression
+# Workflow for Meta analyses for Differential Expression
 
 
 .pull-left-50[
@@ -334,13 +334,14 @@ Gene level, Pathway level or a hybrid approach.
 
 ## Meta-analyses Co-expression networks using [MetaDCN](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6041767/)
 
-Differential co-expression (DC) refers to the change in gene–gene correlations between two conditions (e.g. cases and controls). 
+ - Differential co-expression (DC) refers to the change in gene–gene correlations between two conditions (e.g. cases and controls). 
 
-The differential correlation relationship could arise from meaningful biological sources as well as uncorrected technical biases
+ - The differential correlation relationship could arise from meaningful biological sources as well as uncorrected technical biases
 
-unwanted batch effect, or mixture of tissues could potentially contribute to co-expression relationships
+ - Unwanted batch effect, or mixture of tissues could potentially contribute to co-expression relationships
 
-differential co-expression may be confirmed across multiple datasets via meta-analyses to increase the detection power and stability. DC networks that are significant in one dataset may become more convincing if the DC patterns are preserved across multiple datasets.
+ - Differential co-expression may be confirmed across multiple datasets via meta-analyses to increase the detection power and stability. 
+ - DC networks that are significant in one dataset may become more convincing if the DC patterns are preserved across multiple datasets.
 
 <br/>  
 
@@ -362,7 +363,7 @@ _Here we are not discussing Network meta-analysis (NMA) which extends principles
 
 
 ![](images/MetaDCN_overview.jpg)
-
+Bioinformatics. 2017 Apr 15; 33(8): 1121–1129. 
 ---
 
 ## End of lecture
@@ -374,7 +375,7 @@ pagedown::chrome_print("Meta_Analyses_Lecture.html")
 
 ```{r, include=FALSE, eval=FALSE}
 library(xaringanBuilder)
-build_pdf("slides.Rmd")
+build_pdf("Meta_Analyses_Lecture.Rmd")
 build_pdf("Meta_Analyses_Lecture.html", complex_slides = TRUE, partial_slides = TRUE)
 ```
 
