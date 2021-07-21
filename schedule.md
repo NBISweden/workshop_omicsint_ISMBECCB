@@ -67,7 +67,7 @@ Instructions on how to run each notebook are indicated in [the labs page](./labs
 
 **14.35 - 14.40** <img border="0" src="https://www.svgrepo.com/show/21938/time.svg" width="15" height="15"> Break
 
-**14.40 - 15.00** <img border="0" src="https://www.svgrepo.com/show/21938/time.svg" width="15" height="15"> Summary ([Rui][3] and [Ashfaq][1])
+**14.40 - 15.00** <img border="0" src="https://www.svgrepo.com/show/21938/time.svg" width="15" height="15"> Summary and closing remarks ([Rui][3] and [Ashfaq][1], [slides](./session_intro/course_end.pdf))
 
 <br>
 <br>
