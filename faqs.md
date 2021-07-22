@@ -13,7 +13,33 @@ p.caption {font-size: 0.9em;font-style: italic;color: grey;margin-right: 10%;mar
 
 We recommend that you follow the pre-course installation instructions, which should avoid most bugs. As the tutorial is time limited, we will not be able to assist you in debugging your installations during the hands-on sessions.
 
-**Bugs and potential solutions**
+**Docker questions**
+<details>
+  <summary markdown="span">`> docker: Got permission denied while trying to connect to the Docker ... connect: permission denied. See 'docker run --help'.`</summary>
+
+  Make sure you are launching docker commands with `sudo`. For instance, `sudo docker run ...`
+</details>
+
+<details>
+  <summary markdown="span">`> What is my username in the rstudio container?`</summary>
+
+  Your user is `omics`. If this doesn't work for some reason, try `rstudio`.
+</details>
+
+<details>
+  <summary markdown="span">`> Can I use normal bash commands in the containers?`</summary>
+
+  Yes, please use `sudo docker run -it ... bash` with any container. Note that you need to have `-it` to have an interactive tty.
+</details>
+
+<details>
+  <summary markdown="span">`> How do I make the container see a folder in my own computer?`</summary>
+
+  When you do `docker run ...`, map the folders. For instance, `docker run -v $(PWD):/omics/project/workshop/ ...` to map your working directory to the folder `/omics/project/workshop/` inside the container.
+  
+</details>
+
+**Other questions**
 
 <details>
   <summary markdown="span">`> I've installed everything through conda. Should I install instead the docker containers?`</summary>

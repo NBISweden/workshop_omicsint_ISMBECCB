@@ -49,17 +49,17 @@ At this point you need to create the two containers for all Rstudio or Jupyter n
   ########### Rstudio image ###########
   # Your user is 'omics' (without the quotes)
   # Replace <yourpassword> with your desired password
-  docker run -d --rm -p 8787:8787 -e PASSWORD=<yourpassword> ruibenfeitas/rstudio:16_07_2021
+  sudo docker run -d --rm -p 8787:8787 -e PASSWORD=<yourpassword> ruibenfeitas/rstudio:16_07_2021
 
   ########### Rstudio image for meta analyses ###########
   # Your user is 'omics' (without the quotes)
   # Replace <yourpassword> with your desired password
-  docker run -d --rm -p 8787:8787 -e PASSWORD=<yourpassword> ash706/omicsint_r
+  sudo docker run -d --rm -p 8787:8787 -e PASSWORD=<yourpassword> ash706/omicsint_r
 
   ########### Jupyter image ###########
   # Your user is 'jovyan' (without the quotes)
   # Replace <yourpassword> with your desired password
-  docker run -d --rm -p 8888:8888 -e JUPYTER_TOKEN=<yourpassword> ruibenfeitas/jupyter:16_07_2021
+  sudo docker run -d --rm -p 8888:8888 -e JUPYTER_TOKEN=<yourpassword> ruibenfeitas/jupyter:16_07_2021
   ```
 
 </details>
