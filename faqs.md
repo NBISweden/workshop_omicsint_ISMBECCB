@@ -13,7 +13,7 @@ p.caption {font-size: 0.9em;font-style: italic;color: grey;margin-right: 10%;mar
 
 We recommend that you follow the pre-course installation instructions, which should avoid most bugs. As the tutorial is time limited, we will not be able to assist you in debugging your installations during the hands-on sessions.
 
-**Docker questions**
+**Questions within Docker containers**
 <details>
   <summary markdown="span">`> docker: Got permission denied while trying to connect to the Docker ... connect: permission denied. See 'docker run --help'.`</summary>
 
@@ -36,6 +36,13 @@ We recommend that you follow the pre-course installation instructions, which sho
   <summary markdown="span">`> How do I make the container see a folder in my own computer?`</summary>
 
   When you do `docker run ...`, map the folders. For instance, `docker run -v $(PWD):/omics/project/workshop/ ...` to map your working directory to the folder `/omics/project/workshop/` inside the container.
+  
+</details>
+
+<details>
+  <summary markdown="span">`> How do I make RStudio see the workshop contents?`</summary>
+
+  From RStudio, please run `setwd('/project/')`, after which you can go to `File` and open the notebooks normally.
   
 </details>
 
