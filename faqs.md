@@ -27,6 +27,12 @@ We recommend that you follow the pre-course installation instructions, which sho
 </details>
 
 <details>
+  <summary markdown="span">`> WARNING: The requested image's platform ... does not match the detected host platform ... and no specific platform was requested 1e53..9509``</summary>
+
+  You need to provide the correct platform in `docker run ... --platform [yourplatform] ...`. See [here](https://stackoverflow.com/a/68004485/1379826) for an example.
+</details>
+
+<details>
   <summary markdown="span">`> Can I use normal bash commands in the containers?`</summary>
 
   Yes, please use `sudo docker run -it ... bash` with any container. Note that you need to have `-it` to have an interactive tty.
