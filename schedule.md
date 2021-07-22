@@ -61,7 +61,7 @@ Instructions on how to run each notebook are indicated in [the labs page](./labs
 
 **12.40 - 13.10** <img border="0" src="https://www.svgrepo.com/show/7321/teacher.svg" width="15" height="15"> Network meta-analysis ([Ashfaq][1],[lecture](./session_meta/Meta_Analyses_Lecture.html), [pdf](./session_meta/Meta_Analyses_Lecture.pdf))  
 
-**13.10 - 14.35** <img border="0" src="https://www.svgrepo.com/show/7421/computer.svg" width="15" height="15"> Hans-on exercises. Choose one of the following:  
+**13.10 - 14.35** <img border="0" src="https://www.svgrepo.com/show/7421/computer.svg" width="15" height="15"> Hands-on exercises. Choose one of the following:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Multi-omic network analysis notebook](./session_topology/lab.ipynb) ([html](./session_topology/lab.html)) found in `./session_topology/lab.ipynb`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Network meta-analysis notebook](./session_meta/lab_meta-analayses-v2.Rmd) ([html](./session_meta/lab_meta-analayses-v2.html)) found in `./session_meta/lab_meta-analayses-v2.Rmd`  
 
