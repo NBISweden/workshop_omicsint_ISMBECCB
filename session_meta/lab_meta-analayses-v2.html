@@ -9,12 +9,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="Ashfaq Ali • 21-Jul-2021" />
+<meta name="author" content="Ashfaq Ali • 23-Jul-2021" />
 
 
 <title>Meta analyses of omics data</title>
 
-<script src="lab_meta-analayses-v2_files/header-attrs-2.9/header-attrs.js"></script>
+<script src="lab_meta-analayses-v2_files/header-attrs-2.8/header-attrs.js"></script>
 <script src="lab_meta-analayses-v2_files/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="lab_meta-analayses-v2_files/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -325,7 +325,7 @@ div.tocify {
 
 <h1 class="title toc-ignore">Meta analyses of omics data</h1>
 <h3 class="subtitle">Workshop on Omics Integration</h3>
-<h4 class="author"><b>Ashfaq Ali</b> • 21-Jul-2021</h4>
+<h4 class="author"><b>Ashfaq Ali</b> • 23-Jul-2021</h4>
 
 </div>
 
@@ -787,12 +787,10 @@ R
 <span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb21-10"><a href="#cb21-10" aria-hidden="true" tabindex="-1"></a><span class="fu">as.data.frame</span>(<span class="fu">lapply</span>(prostate6<span class="sc">$</span>data, dim))</span></code></pre></div>
 <pre><code>## $data
-## [1] &quot;Welsh&quot;      &quot;Yu&quot;         &quot;Lapointe&quot;   &quot;Varambally&quot; &quot;Singh&quot;     
-## [6] &quot;Wallace&quot;   
+## [1] &quot;Welsh&quot;      &quot;Yu&quot;         &quot;Lapointe&quot;   &quot;Varambally&quot; &quot;Singh&quot;      &quot;Wallace&quot;   
 ## 
 ## $dataLabel
-## [1] &quot;Welsh&quot;      &quot;Yu&quot;         &quot;Lapointe&quot;   &quot;Varambally&quot; &quot;Singh&quot;     
-## [6] &quot;Wallace&quot;   
+## [1] &quot;Welsh&quot;      &quot;Yu&quot;         &quot;Lapointe&quot;   &quot;Varambally&quot; &quot;Singh&quot;      &quot;Wallace&quot;   
 ## 
 ##   Welsh   Yu Lapointe Varambally Singh Wallace
 ## 1  3399 3399     3399       3399  3399    3399
@@ -900,34 +898,27 @@ R
 ## dataset 5 is done
 ## dataset 6 is done
 ## Parametric method was used instead of permutation
-##        ind.stat.Welsh ind.stat.Yu ind.stat.Lapointe ind.stat.Varambally
-## GPR12     -0.01447604  0.37943628        0.28513849           0.1086048
-## RPS19      0.20673665  0.23162454        0.77668332           0.1880854
-## GALNT2    -0.11916266  0.11168920        0.36585563           0.3870752
-## MSI1       0.29758865  0.02367612        0.37455130           0.6647996
-## FCGRT     -0.36240927 -0.10877216       -0.53210661          -0.3114009
-## CD163      0.15648617  0.08638936        0.08651916           1.2875034
-##        ind.stat.Singh ind.stat.Wallace ind.p.Welsh    ind.p.Yu ind.p.Lapointe
-## GPR12    -0.106957489       -0.3301548 0.978695463 0.006504890   2.762384e-01
-## RPS19     1.026749249       -0.4766147 0.016116661 0.002484948   3.768341e-10
-## GALNT2    0.005348824        0.2825572 0.428375201 0.437773064   8.001044e-02
-## MSI1     -0.180755089       -0.2662394 0.669863110 0.860595368   2.907234e-03
-## FCGRT     0.022247198        0.1003269 0.000154019 0.155941050   4.359881e-06
-## CD163    -0.211345323       -0.2461299 0.464836081 0.624141614   6.057858e-01
-##        ind.p.Varambally  ind.p.Singh ind.p.Wallace      stat         pval
-## GPR12        0.81888709 0.0354446198  5.153568e-02  25.69660 1.184580e-02
-## RPS19        0.14991966 0.0005284280  6.684494e-06 106.36720 3.121382e-17
-## GALNT2       0.05198725 0.9191733351  2.091679e-02  22.21530 3.517649e-02
-## MSI1         0.26369912 0.0002454798  3.765074e-01  34.02685 6.679961e-04
-## FCGRT        0.13151895 0.8052767733  4.739980e-01  51.94301 6.345524e-07
-## CD163        0.04866036 0.0040981743  2.567059e-01  23.23721 2.577828e-02
-##                 FDR
-## GPR12  1.563039e-02
-## RPS19  5.358373e-16
-## GALNT2 4.258009e-02
-## MSI1   1.116283e-03
-## FCGRT  1.846613e-06
-## CD163  3.195602e-02</code></pre>
+##        ind.stat.Welsh ind.stat.Yu ind.stat.Lapointe ind.stat.Varambally ind.stat.Singh ind.stat.Wallace
+## GPR12     -0.01447604  0.37943628        0.28513849           0.1086048   -0.106957489       -0.3301548
+## RPS19      0.20673665  0.23162454        0.77668332           0.1880854    1.026749249       -0.4766147
+## GALNT2    -0.11916266  0.11168920        0.36585563           0.3870752    0.005348824        0.2825572
+## MSI1       0.29758865  0.02367612        0.37455130           0.6647996   -0.180755089       -0.2662394
+## FCGRT     -0.36240927 -0.10877216       -0.53210661          -0.3114009    0.022247198        0.1003269
+## CD163      0.15648617  0.08638936        0.08651916           1.2875034   -0.211345323       -0.2461299
+##        ind.p.Welsh    ind.p.Yu ind.p.Lapointe ind.p.Varambally  ind.p.Singh ind.p.Wallace      stat
+## GPR12  0.978695463 0.006504890   2.762384e-01       0.81888709 0.0354446198  5.153568e-02  25.69660
+## RPS19  0.016116661 0.002484948   3.768341e-10       0.14991966 0.0005284280  6.684494e-06 106.36720
+## GALNT2 0.428375201 0.437773064   8.001044e-02       0.05198725 0.9191733351  2.091679e-02  22.21530
+## MSI1   0.669863110 0.860595368   2.907234e-03       0.26369912 0.0002454798  3.765074e-01  34.02685
+## FCGRT  0.000154019 0.155941050   4.359881e-06       0.13151895 0.8052767733  4.739980e-01  51.94301
+## CD163  0.464836081 0.624141614   6.057858e-01       0.04866036 0.0040981743  2.567059e-01  23.23721
+##                pval          FDR
+## GPR12  1.184580e-02 1.563039e-02
+## RPS19  3.121382e-17 5.358373e-16
+## GALNT2 3.517649e-02 4.258009e-02
+## MSI1   6.679961e-04 1.116283e-03
+## FCGRT  6.345524e-07 1.846613e-06
+## CD163  2.577828e-02 3.195602e-02</code></pre>
 </div>
 <blockquote>
 <p>If you were unable to run the MetaDE analyses, you can load the results of the above
@@ -1245,86 +1236,64 @@ Output
 </div>
 <pre><code>## R version 4.1.0 (2021-05-18)
 ## Platform: x86_64-apple-darwin17.0 (64-bit)
-## Running under: macOS Big Sur 10.16
+## Running under: macOS Big Sur 11.4
 ## 
 ## Matrix products: default
-## BLAS:   /Library/Frameworks/R.framework/Versions/4.1/Resources/lib/libRblas.dylib
 ## LAPACK: /Library/Frameworks/R.framework/Versions/4.1/Resources/lib/libRlapack.dylib
 ## 
 ## locale:
 ## [1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
 ## 
 ## attached base packages:
-##  [1] grid      parallel  stats4    stats     graphics  grDevices datasets 
-##  [8] utils     methods   base     
+##  [1] grid      parallel  stats4    stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## other attached packages:
-##  [1] MetaDCN_0.0-1               igraph_1.2.6               
-##  [3] snowfall_1.84-6.1           snow_0.4-3                 
-##  [5] MetaPath_2.0                shape_1.4.6                
-##  [7] Rgraphviz_2.36.0            ggplot2_3.3.5              
-##  [9] gplots_3.1.1                cluster_2.1.2              
-## [11] irr_0.84.1                  lpSolve_5.6.15             
-## [13] ConsensusClusterPlus_1.56.0 impute_1.66.0              
-## [15] genefilter_1.74.0           GSEABase_1.54.0            
-## [17] graph_1.70.0                annotate_1.70.0            
-## [19] XML_3.99-0.6                MetaDE_2.2.3               
-## [21] MetaQC_1.0                  multtest_2.48.0            
-## [23] GSA_1.03.1                  preproc_1.2-4              
-## [25] DMwR_0.4.1                  lattice_0.20-44            
-## [27] AnnotationDbi_1.54.1        IRanges_2.26.0             
-## [29] S4Vectors_0.30.0            Biobase_2.52.0             
-## [31] BiocGenerics_0.38.0         plyr_1.8.6                 
-## [33] magrittr_2.0.1              captioner_2.2.3            
-## [35] bookdown_0.22               knitr_1.33                 
+##  [1] MetaDCN_0.0-1               igraph_1.2.6                snowfall_1.84-6.1          
+##  [4] snow_0.4-3                  MetaPath_2.0                shape_1.4.6                
+##  [7] Rgraphviz_2.36.0            ggplot2_3.3.5               gplots_3.1.1               
+## [10] cluster_2.1.2               irr_0.84.1                  lpSolve_5.6.15             
+## [13] ConsensusClusterPlus_1.56.0 impute_1.66.0               genefilter_1.74.0          
+## [16] GSEABase_1.54.0             graph_1.70.0                annotate_1.70.0            
+## [19] XML_3.99-0.6                MetaDE_2.2.3                MetaQC_1.0                 
+## [22] multtest_2.48.0             GSA_1.03.1                  preproc_1.2-4              
+## [25] DMwR_0.4.1                  lattice_0.20-44             AnnotationDbi_1.54.1       
+## [28] IRanges_2.26.0              S4Vectors_0.30.0            Biobase_2.52.0             
+## [31] BiocGenerics_0.38.0         plyr_1.8.6                  magrittr_2.0.1             
+## [34] captioner_2.2.3             bookdown_0.22               knitr_1.33                 
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] colorspace_2.0-2            ellipsis_0.3.2             
-##  [3] class_7.3-19                XVector_0.32.0             
-##  [5] GenomicRanges_1.44.0        fs_1.5.0                   
-##  [7] bit64_4.0.5                 fansi_0.5.0                
-##  [9] splines_4.1.0               cachem_1.0.5               
-## [11] geneplotter_1.70.0          jsonlite_1.7.2             
-## [13] png_0.1-7                   shiny_1.6.0                
-## [15] compiler_4.1.0              httr_1.4.2                 
-## [17] Matrix_1.3-4                fastmap_1.1.0              
-## [19] limma_3.48.1                later_1.2.0                
-## [21] htmltools_0.5.1.1           tools_4.1.0                
-## [23] gtable_0.3.0                glue_1.4.2                 
-## [25] GenomeInfoDbData_1.2.6      Rcpp_1.0.7                 
-## [27] jquerylib_0.1.4             vctrs_0.3.8                
-## [29] Biostrings_2.60.1           xfun_0.24                  
-## [31] stringr_1.4.0               openxlsx_4.2.4             
-## [33] mime_0.11                   lifecycle_1.0.0            
-## [35] renv_0.13.2                 gtools_3.9.2               
-## [37] edgeR_3.34.0                zlibbioc_1.38.0            
-## [39] MASS_7.3-54                 zoo_1.8-9                  
-## [41] scales_1.1.1                promises_1.2.0.1           
-## [43] MatrixGenerics_1.4.0        SummarizedExperiment_1.22.0
-## [45] RColorBrewer_1.1-2          yaml_2.2.1                 
-## [47] quantmod_0.4.18             curl_4.3.2                 
-## [49] memoise_2.0.0               sass_0.4.0                 
-## [51] rpart_4.1-15                stringi_1.7.3              
-## [53] RSQLite_2.2.7               highr_0.9                  
-## [55] TTR_0.24.2                  caTools_1.18.2             
-## [57] zip_2.2.0                   BiocParallel_1.26.1        
-## [59] GenomeInfoDb_1.28.1         rlang_0.4.11               
-## [61] pkgconfig_2.0.3             matrixStats_0.59.0         
-## [63] bitops_1.0-7                evaluate_0.14              
-## [65] ROCR_1.0-11                 bit_4.0.4                  
-## [67] samr_3.0                    DESeq2_1.32.0              
-## [69] R6_2.5.0                    combinat_0.0-8             
-## [71] DelayedArray_0.18.0         DBI_1.1.1                  
-## [73] withr_2.4.2                 pillar_1.6.1               
-## [75] xts_0.12.1                  survival_3.2-11            
-## [77] KEGGREST_1.32.0             abind_1.4-5                
-## [79] RCurl_1.98-1.3              tibble_3.1.2               
-## [81] crayon_1.4.1                shinyFiles_0.9.0           
-## [83] KernSmooth_2.23-20          utf8_1.2.1                 
-## [85] rmarkdown_2.9               locfit_1.5-9.4             
-## [87] blob_1.2.1                  digest_0.6.27              
-## [89] xtable_1.8-4                httpuv_1.6.1               
-## [91] munsell_0.5.0               bslib_0.2.5.1</code></pre>
+##  [1] colorspace_2.0-2            ellipsis_0.3.2              class_7.3-19               
+##  [4] XVector_0.32.0              GenomicRanges_1.44.0        fs_1.5.0                   
+##  [7] rstudioapi_0.13             xaringan_0.21               bit64_4.0.5                
+## [10] fansi_0.5.0                 splines_4.1.0               cachem_1.0.5               
+## [13] geneplotter_1.70.0          jsonlite_1.7.2              servr_0.22                 
+## [16] png_0.1-7                   shiny_1.6.0                 BiocManager_1.30.16        
+## [19] compiler_4.1.0              httr_1.4.2                  Matrix_1.3-4               
+## [22] fastmap_1.1.0               limma_3.48.1                later_1.2.0                
+## [25] htmltools_0.5.1.1           tools_4.1.0                 gtable_0.3.0               
+## [28] glue_1.4.2                  GenomeInfoDbData_1.2.6      Rcpp_1.0.7                 
+## [31] jquerylib_0.1.4             vctrs_0.3.8                 Biostrings_2.60.1          
+## [34] xfun_0.23                   stringr_1.4.0               openxlsx_4.2.4             
+## [37] mime_0.11                   lifecycle_1.0.0             renv_0.13.2                
+## [40] gtools_3.9.2                edgeR_3.34.0                zlibbioc_1.38.0            
+## [43] MASS_7.3-54                 zoo_1.8-9                   scales_1.1.1               
+## [46] promises_1.2.0.1            MatrixGenerics_1.4.0        SummarizedExperiment_1.22.0
+## [49] RColorBrewer_1.1-2          yaml_2.2.1                  quantmod_0.4.18            
+## [52] curl_4.3.2                  memoise_2.0.0               sass_0.4.0                 
+## [55] rpart_4.1-15                stringi_1.7.3               RSQLite_2.2.7              
+## [58] highr_0.9                   TTR_0.24.2                  caTools_1.18.2             
+## [61] zip_2.2.0                   BiocParallel_1.26.1         GenomeInfoDb_1.28.1        
+## [64] rlang_0.4.11                pkgconfig_2.0.3             matrixStats_0.59.0         
+## [67] bitops_1.0-7                evaluate_0.14               ROCR_1.0-11                
+## [70] bit_4.0.4                   samr_3.0                    DESeq2_1.32.0              
+## [73] R6_2.5.0                    combinat_0.0-8              DelayedArray_0.18.0        
+## [76] DBI_1.1.1                   withr_2.4.2                 pillar_1.6.1               
+## [79] xts_0.12.1                  survival_3.2-11             KEGGREST_1.32.0            
+## [82] abind_1.4-5                 RCurl_1.98-1.3              tibble_3.1.2               
+## [85] crayon_1.4.1                shinyFiles_0.9.0            KernSmooth_2.23-20         
+## [88] utf8_1.2.1                  rmarkdown_2.8               locfit_1.5-9.4             
+## [91] blob_1.2.1                  digest_0.6.27               xtable_1.8-4               
+## [94] httpuv_1.6.1                munsell_0.5.0               bslib_0.2.5.1</code></pre>
 </div>
 <p><strong>End of document</strong></p>
 </div>
@@ -1367,9 +1336,6 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
-
-    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
-    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')

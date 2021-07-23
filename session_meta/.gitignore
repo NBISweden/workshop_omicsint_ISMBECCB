@@ -5,9 +5,7 @@
 # r environment directory
 renv/
 
-assets/
-images/
-results/
+
 Meta_tutorial_copy/
 Meta_presentation/
 
