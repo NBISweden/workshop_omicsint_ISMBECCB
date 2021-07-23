@@ -573,7 +573,7 @@ path.res <- MetaDE::PathAnalysis(meta.p ,pathway = pathwayDatabase, p.cut = 0.05
 -   Perform DE meta analyses using any two methods among "AW-Fisher",
     "FEM, "REM and "minMCC" and compare the number of differentially
     expressed genes detected at FDR \<0.05. Take a look at the
-    `r ?MetaDE::MetaDE` function to change the parameters.
+    `?MetaDE::MetaD` function to change the parameters.
 
 -   Perform pathway analyses based one of the methods you tried and see
     whether any differences at pathway level were detected.
